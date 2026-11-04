@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { District, Category } from '../types';
@@ -273,7 +274,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <Link key={item.id} to={item.link || `/businesses/${item.slug}`} className="district-item-card">
               <div className="district-card-media">
                 <img
-                  src={item.image}
+                  src={getAssetUrl(item.image)}
                   alt={item.title}
                   className="district-card-img"
                   loading="lazy"
@@ -282,11 +283,11 @@ export const HomePage: React.FC<HomePageProps> = ({
                     if (!target.dataset.failed) {
                       target.dataset.failed = 'true';
                       // Use unique category fallback so no two cards ever show the same image
-                      if (item.categoryTag === 'Restaurant') target.src = '/images/destinations/assamese-heritage-culinary-trail.jpg';
-                      else if (item.categoryTag === 'Handicraft') target.src = '/images/destinations/sualkuchi.jpg';
-                      else if (item.categoryTag === 'Tourist Place') target.src = '/images/destinations/umananda.jpg';
-                      else if (item.categoryTag === 'Education') target.src = '/images/featured/iit-admin.jpg';
-                      else target.src = '/images/destinations/kamakhya.jpg';
+                      if (item.categoryTag === 'Restaurant') target.src = getAssetUrl('/images/destinations/assamese-heritage-culinary-trail.jpg');
+                      else if (item.categoryTag === 'Handicraft') target.src = getAssetUrl('/images/destinations/sualkuchi.jpg');
+                      else if (item.categoryTag === 'Tourist Place') target.src = getAssetUrl('/images/destinations/umananda.jpg');
+                      else if (item.categoryTag === 'Education') target.src = getAssetUrl('/images/featured/iit-admin.jpg');
+                      else target.src = getAssetUrl('/images/destinations/kamakhya.jpg');
                     }
                   }}
                 />

@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { EventItem } from '../types';
@@ -123,7 +124,7 @@ export const EventDetailPage: React.FC = () => {
             background: '#F8FAFC'
           }}>
             <img
-              src={event.image_url}
+              src={getAssetUrl(event.image_url)}
               alt={event.title}
               style={{
                 width: '100%',

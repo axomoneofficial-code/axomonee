@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
@@ -508,7 +509,7 @@ export const DestinationDetailPage: React.FC = () => {
 
             <div className="dest-lightbox-img-container">
               <img
-                src={currentSlide.url}
+                src={getAssetUrl(currentSlide.url)}
                 alt={currentSlide.caption || destination.name}
                 className="dest-lightbox-img"
               />
@@ -796,7 +797,7 @@ export const DestinationDetailPage: React.FC = () => {
             >
               <DestinationImage
                 key={currentSlide.url}
-                src={currentSlide.url}
+                src={getAssetUrl(currentSlide.url)}
                 alt={currentSlide.caption || destination.name}
                 className="dest-hero-photo animate-fadeIn"
                 category={destination.category}
@@ -897,7 +898,7 @@ export const DestinationDetailPage: React.FC = () => {
                     title={slide.caption}
                   >
                     <img
-                      src={slide.url}
+                      src={getAssetUrl(slide.url)}
                       alt={slide.caption}
                       className="dest-thumbnail-img"
                       loading="lazy"

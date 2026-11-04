@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { INSTAGRAM_CONFIG } from '../config/socialConfig';
@@ -73,7 +74,7 @@ export const InstagramShowcase: React.FC = () => {
             >
               <div className="instagram-avatar-inner">
                 <img
-                  src="/axom-one-logo.png"
+                  src={getAssetUrl("/images/axom-nav-emblem.png")}
                   alt="AXOM ONE Instagram Profile"
                   className="instagram-avatar-img"
                   onError={(e) => {
@@ -211,7 +212,7 @@ export const InstagramShowcase: React.FC = () => {
               title={post.caption}
             >
               <img
-                src={post.image}
+                src={getAssetUrl(post.image)}
                 alt={post.caption}
                 className="instagram-tile-img"
                 loading="lazy"

@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Listing } from '../types';
@@ -82,7 +83,7 @@ export const BusinessDetailPage: React.FC = () => {
         {listing.image_url && (
           <div style={{ borderRadius: 'var(--radius-md)', overflow: 'hidden', margin: '1.25rem 1.25rem 1.5rem', maxHeight: '420px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
             <img
-              src={listing.image_url}
+              src={getAssetUrl(listing.image_url)}
               alt={listing.title}
               style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', display: 'block' }}
               onError={(e) => {

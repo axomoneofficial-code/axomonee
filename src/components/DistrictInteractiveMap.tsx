@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useMemo } from 'react';
 import {
   MapPin,
@@ -657,7 +658,7 @@ export const DistrictInteractiveMap: React.FC<DistrictInteractiveMapProps> = ({ 
           {activePlace.imageUrl ? (
             <div className="district-inspector-thumb-wrapper">
               <img
-                src={activePlace.imageUrl}
+                src={getAssetUrl(activePlace.imageUrl)}
                 alt={activePlace.name}
                 className="district-inspector-thumb"
                 loading="lazy"

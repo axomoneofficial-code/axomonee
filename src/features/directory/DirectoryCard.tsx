@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../../utils/assetHelper';
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { DirectoryItem, DirectoryStatus } from './types';
@@ -115,7 +116,7 @@ export const DirectoryCard: React.FC<DirectoryCardProps> = ({
       >
         {item.imageUrl ? (
           <img
-            src={item.imageUrl}
+            src={getAssetUrl(item.imageUrl)}
             alt={item.name}
             style={{
               width: '100%',

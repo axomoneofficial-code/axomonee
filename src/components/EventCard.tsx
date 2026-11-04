@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { EventItem } from '../types';
@@ -20,7 +21,7 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
       <div className="event-card-media-wrap">
         {event.image_url ? (
           <img
-            src={event.image_url}
+            src={getAssetUrl(event.image_url)}
             alt={event.title}
             className="event-card-img"
             loading="lazy"

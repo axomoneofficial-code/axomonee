@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Send } from 'lucide-react';
@@ -28,7 +29,7 @@ export const Footer: React.FC = () => {
         <div>
           <div className="flex items-center gap-2 mb-2">
             <img
-              src="/images/axom-nav-emblem.png"
+              src={getAssetUrl("/images/axom-nav-emblem.png")}
               alt="AXOM ONE Logo"
               width={34}
               height={34}

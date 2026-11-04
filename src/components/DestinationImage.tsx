@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useMemo } from 'react';
 
 interface DestinationImageProps {
@@ -115,7 +116,7 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
   const getOptimizedSrc = (originalUrl: string, step: number): string => {
     if (!originalUrl || originalUrl.trim() === '') return '';
     if (step === 0) {
-      return originalUrl;
+      return getAssetUrl(originalUrl);
     }
     if (step === 1) {
       if (originalUrl.includes('upload.wikimedia.org')) {
@@ -156,7 +157,7 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
             left: 0,
             right: 0,
             height: '4px',
-            backgroundImage: "url('/images/gamusa-pattern.png')",
+            backgroundImage: `url('${getAssetUrl('/images/gamusa-pattern.png')}')`,
             backgroundSize: 'auto 4px',
             backgroundRepeat: 'repeat-x',
           }}

@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../../utils/assetHelper';
 import React, { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { DirectoryItem, DirectoryStatus } from './types';
@@ -70,7 +71,7 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
         {item.imageUrl && (
           <div style={{ borderRadius: 'var(--radius-md)', overflow: 'hidden', margin: '0.75rem 1.5rem 0', maxHeight: '280px', boxShadow: '0 2px 10px rgba(0,0,0,0.06)' }}>
             <img
-              src={item.imageUrl}
+              src={getAssetUrl(item.imageUrl)}
               alt={item.name}
               style={{ width: '100%', height: '240px', objectFit: 'cover', display: 'block' }}
               onError={(e) => {

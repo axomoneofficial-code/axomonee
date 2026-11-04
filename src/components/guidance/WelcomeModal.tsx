@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../../utils/assetHelper';
 import React, { useEffect, useRef } from 'react';
 import { useGuidance } from '../../context/GuidanceContext';
 import {
@@ -76,7 +77,7 @@ export const WelcomeModal: React.FC = () => {
           <div className="guidance-welcome-header">
             <div className="guidance-brand-badge">
               <img
-                src="/images/axom-nav-emblem.png"
+                src={getAssetUrl("/images/axom-nav-emblem.png")}
                 alt="AXOM ONE Emblem"
                 className="guidance-brand-emblem"
               />

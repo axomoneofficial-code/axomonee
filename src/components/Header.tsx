@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
@@ -264,7 +265,7 @@ export const Header: React.FC = () => {
           {/* Brand Logo - Official Visual Identity */}
           <Link to="/" className="brand-group" onClick={() => setMobileMenuOpen(false)}>
             <img
-              src="/images/axom-nav-emblem.png"
+              src={getAssetUrl("/images/axom-nav-emblem.png")}
               alt="AXOM ONE Brand Emblem"
               className="brand-logo-img"
               width={74}

@@ -9,16 +9,16 @@ const STATIC_CACHE = 'axom-one-static-v1.1';
 const DYNAMIC_CACHE = 'axom-one-dynamic-v1.1';
 
 const PRECACHE_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icons/icon.svg',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-maskable-512.png',
-  '/icons/apple-touch-icon.png',
-  '/images/gamusa-pattern.png',
-  '/images/gamusa-top-strip.png',
+  './',
+  './index.html',
+  './manifest.json',
+  './icons/icon.svg',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/icon-maskable-512.png',
+  './icons/apple-touch-icon.png',
+  './images/gamusa-pattern.png',
+  './images/gamusa-top-strip.png',
 ];
 
 // Offline Fallback HTML for brand-new uncached pages

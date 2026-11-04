@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
 import { BeautyDestination, BeautyDestinationCategory, DestinationStatus } from '../../types';
 import { api, FALLBACK_DISTRICTS } from '../../api';
@@ -279,7 +280,7 @@ export const AdminDestinationsPage: React.FC = () => {
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                       <div style={{ width: '44px', height: '44px', borderRadius: '6px', overflow: 'hidden', background: '#E5E7EB', flexShrink: 0 }}>
                         <img
-                          src={d.imageUrl || d.image || '/images/hero-clean-hd.jpg'}
+                          src={getAssetUrl(d.imageUrl || d.image || '/images/hero-clean-hd.jpg')}
                           alt={d.name}
                           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                           onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/images/hero-clean-hd.jpg'; }}
@@ -718,7 +719,7 @@ export const AdminDestinationsPage: React.FC = () => {
 
               {previewItem.imageUrl && (
                 <div style={{ width: '100%', height: '240px', borderRadius: '8px', overflow: 'hidden', marginBottom: '1rem' }}>
-                  <img src={previewItem.imageUrl} alt={previewItem.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src={getAssetUrl(previewItem.imageUrl)} alt={previewItem.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               )}
 

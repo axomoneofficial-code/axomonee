@@ -1,3 +1,4 @@
+import { getAssetUrl } from '../../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
 import { Listing, VerificationStatus, ModerationStatus, ListingType } from '../../types';
 import { api, FALLBACK_DISTRICTS, FALLBACK_CATEGORIES } from '../../api';
@@ -259,7 +260,7 @@ export const AdminListingsPage: React.FC = () => {
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                       <div style={{ width: '40px', height: '40px', borderRadius: '6px', overflow: 'hidden', background: '#F3F4F6', flexShrink: 0 }}>
                         <img
-                          src={l.image_url || l.image_key || '/images/hero-clean-hd.jpg'}
+                          src={getAssetUrl(l.image_url || l.image_key || '/images/hero-clean-hd.jpg')}
                           alt={l.title}
                           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                           onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/images/hero-clean-hd.jpg'; }}

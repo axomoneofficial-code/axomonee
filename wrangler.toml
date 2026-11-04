@@ -11,8 +11,8 @@ binding = "ASSETS"
 # Cloudflare D1 Database
 [[d1_databases]]
 binding = "DB"
-database_name = "axom-one-db"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_name = "axomone-production"
+database_id = "46fbb3b3-fd65-4960-b9f7-4558df536013"
 migrations_dir = "worker/migrations"
 
 # Environment Variables

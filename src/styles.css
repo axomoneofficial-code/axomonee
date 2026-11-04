@@ -46,6 +46,15 @@
   padding: 0;
 }
 
+html,
+body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: var(--font-base);
   background-color: var(--bg-page);
@@ -55,6 +64,16 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+#root {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
@@ -367,7 +386,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 @media (max-width: 1200px) {
   .gamusa-header-flank {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -2770,7 +2789,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .directory-layout {
     grid-template-columns: 1fr;
   }
@@ -2781,19 +2800,37 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
     grid-template-columns: 1fr;
   }
   .nav-center-links {
-    display: none;
+    display: none !important;
   }
   .mobile-menu-btn {
-    display: inline-flex;
+    display: inline-flex !important;
+  }
+  .header-quick-search-btn {
+    display: none !important;
+  }
+  .header-mobile-search-btn {
+    display: inline-flex !important;
+  }
+  .header-help-btn {
+    display: none !important;
+  }
+  .gamusa-header-flank {
+    display: none !important;
   }
   .categories-bar-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.75rem !important;
   }
   .district-cards-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
   }
   .promo-banners-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  .hero-proud-badge {
+    display: none !important;
   }
   .footer-top-container {
     grid-template-columns: 1fr 1fr;
@@ -2803,29 +2840,161 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   }
 }
 
-@media (max-width: 640px) {
-  .categories-bar-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .district-cards-grid {
-    grid-template-columns: 1fr;
-  }
-  .hero-main-title {
-    font-size: 2.6rem;
-  }
-  .hero-search-pill {
-    flex-direction: column;
-    border-radius: 16px;
-    padding: 0.75rem;
-  }
-  .search-district-divider {
-    display: none;
-  }
-  .footer-top-container {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+  .hero-proud-badge {
+    display: none !important;
   }
   .hero-gamusa-wind-anim {
-    display: none;
+    display: none !important;
+  }
+  .categories-bar-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.65rem !important;
+  }
+  .featured-header-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+  .featured-controls-right {
+    width: 100% !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-inner {
+    padding: 0.45rem 0.85rem !important;
+    gap: 0.5rem !important;
+  }
+  .categories-bar-section {
+    padding: 0 0.85rem !important;
+    margin: 1.25rem auto 2.25rem auto !important;
+  }
+  .categories-bar-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.55rem !important;
+  }
+  .category-pill-card {
+    padding: 0.65rem 0.5rem !important;
+    gap: 0.45rem !important;
+  }
+  .category-pill-icon {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .category-pill-title {
+    font-size: 0.8rem !important;
+  }
+  .category-pill-subtitle {
+    font-size: 0.65rem !important;
+  }
+  .featured-district-section {
+    padding: 0 0.85rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+  .district-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  .district-item-card {
+    width: 100% !important;
+  }
+  .district-card-media {
+    height: 190px !important;
+  }
+  .hero-content-center {
+    padding: 0.5rem 0.75rem 1.25rem 0.75rem !important;
+  }
+  .hero-welcome-script {
+    font-size: clamp(1.8rem, 6vw, 2.3rem) !important;
+  }
+  .hero-main-title {
+    font-size: clamp(2rem, 8vw, 2.75rem) !important;
+    margin-bottom: 0.45rem !important;
+  }
+  .hero-subtitle-en {
+    font-size: 1.05rem !important;
+  }
+  .hero-subtitle-as {
+    font-size: 1rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+  .hero-clean-cta-row {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 0.65rem !important;
+  }
+  .hero-cta-btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  .hero-search-pill {
+    flex-direction: column !important;
+    border-radius: 16px !important;
+    padding: 0.65rem !important;
+    gap: 0.5rem !important;
+  }
+  .search-district-divider {
+    display: none !important;
+  }
+  .promo-banners-section {
+    padding: 0 0.85rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+  .promo-banners-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  .footer-top-container {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  .carousel-nav-arrows {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-inner {
+    padding: 0.35rem 0.6rem !important;
+    gap: 0.35rem !important;
+  }
+  .brand-group {
+    gap: 0.45rem !important;
+  }
+  .brand-tagline {
+    display: none !important;
+  }
+  .brand-emblem-svg {
+    width: 32px !important;
+    height: 30px !important;
+  }
+  .brand-title-row {
+    font-size: 1.2rem !important;
+  }
+  .header-right-controls {
+    gap: 0.35rem !important;
+  }
+  .lang-pill {
+    padding: 0 0.45rem !important;
+    height: 34px !important;
+    font-size: 0.75rem !important;
+  }
+  .mobile-menu-btn {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .header-mobile-search-btn {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .mobile-menu-drawer {
+    padding: 1rem 0.85rem 1.5rem 0.85rem !important;
+  }
+  .mobile-links-group {
+    grid-template-columns: 1fr !important;
   }
 }
 
@@ -9327,7 +9496,7 @@ html, body {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .header-inner {
     padding: 0.55rem 1rem;
   }
@@ -12077,7 +12246,7 @@ html, body {
   align-items: start;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   .events-map-view-container {
     grid-template-columns: 1fr;
   }

@@ -1,5 +1,6 @@
 import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { useParams, Link } from 'react-router-dom';
 import { Listing } from '../types';
 import { api } from '../api';
@@ -65,6 +66,19 @@ export const BusinessDetailPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '960px', margin: '0 auto' }}>
+      {listing && (
+        <SEO
+          title={`${listing.title} – Assam Verified Local Business`}
+          description={listing.description || 'Verified Assamese enterprise'}
+          canonicalPath={`/businesses/${listing.slug}`}
+          keywords={`${listing.title}, Assam business, ${listing.district_name || ''}`}
+          breadcrumbs={[
+            { name: 'Home', path: '/' },
+            { name: 'Local Businesses', path: '/businesses' },
+            { name: listing.title, path: `/businesses/${listing.slug}` },
+          ]}
+        />
+      )}
       {/* Top Breadcrumb */}
       <div style={{ marginBottom: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/explore" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.875rem', fontWeight: 600 }}>

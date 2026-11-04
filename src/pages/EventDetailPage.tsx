@@ -1,5 +1,6 @@
 import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { useParams, Link } from 'react-router-dom';
 import { EventItem } from '../types';
 import { api } from '../api';
@@ -81,6 +82,20 @@ export const EventDetailPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '860px', margin: '0 auto', padding: '0 0.5rem' }}>
+      {event && (
+        <SEO
+          title={`${event.title} – Assam Cultural Festival Calendar`}
+          description={event.description || 'Experience authentic Vaishnavite, Bihu, and folk celebrations in Assam.'}
+          canonicalPath={`/events/${event.slug || event.id}`}
+          image={event.image_url}
+          keywords={`${event.title}, Assam festivals, ${event.venue || ''}, ${event.district_name || ''}`}
+          breadcrumbs={[
+            { name: 'Home', path: '/' },
+            { name: 'Cultural Festivals', path: '/events' },
+            { name: event.title, path: `/events/${event.slug || event.id}` },
+          ]}
+        />
+      )}
       <div style={{ marginBottom: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/events" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.875rem', fontWeight: 600 }}>
           <ArrowLeft size={16} /> Back to Events

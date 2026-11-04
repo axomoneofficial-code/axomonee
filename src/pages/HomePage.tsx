@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { District, Category } from '../types';
 import { useLanguage } from '../context/LanguageContext';
+import { SEO } from '../components/SEO';
 import {
   Compass,
   MapPin,
@@ -92,6 +93,12 @@ export const HomePage: React.FC<HomePageProps> = ({
 
   return (
     <div>
+      <SEO
+        title="AXOMONE – Explore Assam, Culture, Places & Local Services"
+        description="Discover Assam with AXOMONE. Explore districts, heritage sites, temples, universities, local businesses, Assamese culture, tourism and useful local resources."
+        canonicalPath="/"
+        keywords="Assam, Assam districts, Assam tourism, Kaziranga, Majuli, Kamakhya, Assam universities, Assamese culture, AXOMONE"
+      />
       {/* ====================================================================
           1. Scenic Hero Section (Matches Reference Image)
          ==================================================================== */}

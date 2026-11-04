@@ -1,10 +1,21 @@
 import React from 'react';
+import { SEO } from '../components/SEO';
 import { ShieldAlert, Heart, MapPin, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const AboutPage: React.FC = () => {
   return (
     <div style={{ maxWidth: '860px', margin: '0 auto' }}>
+      <SEO
+        title="About AXOMONE – Authentic Assam Discovery &amp; Civic Portal"
+        description="Learn about the mission, cultural vision, data verification standards, and community ethos behind the AXOMONE portal for Assam."
+        canonicalPath="/about"
+        keywords="About AXOMONE, Assam portal mission, Assam civic initiative, verified Assam database"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'About AXOMONE', path: '/about' },
+        ]}
+      />
       <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
         <span style={{ fontSize: '2.5rem' }}>🦏</span>
         <h1 style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--primary-green)', marginTop: '0.5rem', marginBottom: '0.4rem' }}>

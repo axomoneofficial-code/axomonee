@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { useSearchParams } from 'react-router-dom';
 import { District, Category, Listing } from '../types';
 import { ListingCard } from '../components/ListingCard';
@@ -62,6 +63,16 @@ export const ExplorePage: React.FC<ExplorePageProps> = ({
 
   return (
     <div>
+      <SEO
+        title="Explore Assam – Unified District, Tourism &amp; Business Search"
+        description="Search across all 35 Assam districts, heritage destinations, verified local enterprises, essential public services, and cultural events."
+        canonicalPath="/explore"
+        keywords="Explore Assam, Assam search, find tourist spots Assam, Assam district lookup"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Explore', path: '/explore' },
+        ]}
+      />
       {/* Editorial Header Banner */}
       <div className="page-header-box">
         <div className="page-pill-badge">

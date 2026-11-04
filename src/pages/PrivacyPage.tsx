@@ -1,8 +1,18 @@
 import React from 'react';
+import { SEO } from '../components/SEO';
 
 export const PrivacyPage: React.FC = () => {
   return (
     <div style={{ maxWidth: '860px', margin: '0 auto' }}>
+      <SEO
+        title="Privacy Policy &amp; Data Ethics | AXOMONE"
+        description="Our commitment to citizen privacy, transparent cookies, zero unsolicited tracking, and ethical data governance."
+        canonicalPath="/privacy"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Privacy Policy', path: '/privacy' },
+        ]}
+      />
       <article className="detail-container">
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
           Privacy Policy & Data Protection

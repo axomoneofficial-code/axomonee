@@ -1,7 +1,7 @@
-# AXOM ONE (অসম এক মঞ্চ) Robots.txt
+# AXOMONE (অসম এক মঞ্চ) Robots.txt
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://axomone.in/sitemap.xml
+Sitemap: https://axomoneofficial-code.github.io/axomonee/sitemap.xml

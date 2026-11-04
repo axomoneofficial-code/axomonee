@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { SEO } from '../components/SEO';
 import { Link } from 'react-router-dom';
 import { useGuidance } from '../context/GuidanceContext';
 import {
@@ -280,6 +281,16 @@ export const HelpCentrePage: React.FC = () => {
 
   return (
     <div className="help-page-container">
+      <SEO
+        title="Help Centre &amp; User Navigation Guide | AXOMONE"
+        description="Frequently asked questions, search tips, district atlas guides, and step-by-step walkthroughs for AXOMONE."
+        canonicalPath="/help"
+        keywords="AXOMONE help, Assam portal guide, how to search, keyboard shortcuts"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Help Centre', path: '/help' },
+        ]}
+      />
       {/* Top Gamusa Woven Silk Accent Bar */}
       <div className="gamusa-top-woven-strip" style={{ height: '8px' }} />
 

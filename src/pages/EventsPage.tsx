@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { SEO } from '../components/SEO';
 import { District, EventItem } from '../types';
 import { EventCard } from '../components/EventCard';
 import { ContextualHelp, GuidanceEmptyState } from '../components/guidance';
@@ -100,6 +101,16 @@ export const EventsPage: React.FC<EventsPageProps> = ({ districts, initialDistri
 
   return (
     <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 0.5rem' }}>
+      <SEO
+        title="Assam Cultural Festivals &amp; Raas Mahotsav Calendar 2026–2027"
+        description="Verified calendar of Assam cultural festivals including Majuli Raas Mahotsav, Howly Raas, Rongali Bihu, Jonbeel Mela, and Ambubachi Mahayoga."
+        canonicalPath="/events"
+        keywords="Assam festivals, Majuli Raas Mahotsav, Howly Raas, Bihu, Jonbeel Mela, Ambubachi, Assam cultural calendar"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Cultural Festivals', path: '/events' },
+        ]}
+      />
       {/* Header Section */}
       <div className="events-page-header">
         <div>

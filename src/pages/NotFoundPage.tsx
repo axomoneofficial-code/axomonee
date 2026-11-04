@@ -1,10 +1,16 @@
 import React from 'react';
+import { SEO } from '../components/SEO';
 import { Link } from 'react-router-dom';
 import { Home, Compass } from 'lucide-react';
 
 export const NotFoundPage: React.FC = () => {
   return (
     <div style={{ textAlign: 'center', padding: '6rem 1.5rem', maxWidth: '600px', margin: '0 auto' }}>
+      <SEO
+        title="Page Not Found (404) | AXOMONE"
+        description="The requested page could not be found on AXOMONE. Return to the homepage to explore Assam districts, tourism, and services."
+        canonicalPath="/404"
+      />
       <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>🦏</div>
       <h1 style={{ fontSize: '3rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
         404

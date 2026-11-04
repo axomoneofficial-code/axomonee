@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { SEO } from '../../components/SEO';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { useLanguage } from '../../context/LanguageContext';
@@ -244,6 +245,16 @@ export const DirectoryHome: React.FC<{ forcedAdmin?: boolean }> = ({ forcedAdmin
 
   return (
     <div className="directory-page-container">
+      <SEO
+        title="Assam Official Discovery Directory – Universities, Heritage &amp; Public Services"
+        description="Verified public directory of universities, engineering &amp; medical colleges, heritage monuments, archaeological sites, temples, and citizen helplines across Assam."
+        canonicalPath="/directory"
+        keywords="Assam directory, universities in Assam, Assam colleges, Assam heritage sites, Assam temples, public services Assam"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Assam Directory', path: '/directory' },
+        ]}
+      />
       {/* View Switcher Bar */}
       <div className="directory-view-switch-bar">
         <div className="flex items-center gap-2">
@@ -334,6 +345,7 @@ export const DirectoryHome: React.FC<{ forcedAdmin?: boolean }> = ({ forcedAdmin
           </div>
 
           {/* Quick Category Shortcut Cards */}
+          <h2 className="sr-only">Browse by Verified Category</h2>
           <div className="directory-category-strip">
             {categories.map((c) => {
               const count = categoryCounts[c.id] || 0;

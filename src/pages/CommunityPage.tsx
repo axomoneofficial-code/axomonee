@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { District, Listing } from '../types';
 import { ListingCard } from '../components/ListingCard';
 import { api } from '../api';
@@ -31,6 +32,16 @@ export const CommunityPage: React.FC<CommunityPageProps> = ({ districts, initial
 
   return (
     <div>
+      <SEO
+        title="Assam Citizens &amp; Community Exchange Platform"
+        description="Connect with local Assam communities, share authentic updates, participate in cultural exchanges, and collaborate across districts."
+        canonicalPath="/community"
+        keywords="Assam community, citizen platform Assam, Assam youth forums, cultural exchange"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Community', path: '/community' },
+        ]}
+      />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem', marginBottom: '2rem' }}>
         <div>
           <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.35rem' }}>
@@ -67,7 +78,7 @@ export const CommunityPage: React.FC<CommunityPageProps> = ({ districts, initial
       ) : listings.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '4rem', background: '#FFFFFF', borderRadius: '16px' }}>
           <Megaphone size={48} color="var(--primary-green)" style={{ margin: '0 auto 1rem auto' }} />
-          <h3>No announcements active in this district</h3>
+          <h2>No announcements active in this district</h2>
           <p style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>Organizing a tree plantation or neighborhood initiative? Share it with the community!</p>
           <Link to="/submit" className="btn-outline" style={{ marginTop: '1rem' }}>Submit Community Notice</Link>
         </div>

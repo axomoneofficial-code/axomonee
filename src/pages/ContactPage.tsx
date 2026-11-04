@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SEO } from '../components/SEO';
 import { api } from '../api';
 import { CheckCircle2, ExternalLink } from 'lucide-react';
 import { INSTAGRAM_CONFIG } from '../config/socialConfig';
@@ -41,6 +42,16 @@ export const ContactPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '640px', margin: '0 auto' }}>
+      <SEO
+        title="Contact AXOMONE – Editorial Verification &amp; Citizen Feedback"
+        description="Get in touch with the AXOMONE editorial and verification desk to suggest listings, submit corrections, or propose partnerships."
+        canonicalPath="/contact"
+        keywords="Contact AXOMONE, support, suggestion, editorial desk, Assam verification"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Contact', path: '/contact' },
+        ]}
+      />
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.35rem' }}>
           Contact Axom One

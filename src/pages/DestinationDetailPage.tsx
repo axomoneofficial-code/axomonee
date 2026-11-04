@@ -1,5 +1,6 @@
 import { getAssetUrl } from '../utils/assetHelper';
 import React, { useState, useEffect, useMemo } from 'react';
+import { SEO } from '../components/SEO';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { sanitizeExternalUrl } from '../utils/security';
@@ -150,8 +151,8 @@ export const DestinationDetailPage: React.FC = () => {
       name: destination.name,
       alternateName: [destination.name_as, destination.name_hi].filter(Boolean),
       description: destination.shortDescription || destination.fullDescription,
-      url: `https://axomone.in/destinations/${destination.slug}`,
-      image: destination.imageUrl ? `https://axomone.in${destination.imageUrl}` : undefined,
+      url: `https://axomoneofficial-code.github.io/axomonee/destinations/${destination.slug}`,
+      image: destination.imageUrl ? `https://axomoneofficial-code.github.io/axomonee${destination.imageUrl}` : undefined,
       address: {
         '@type': 'PostalAddress',
         addressLocality: destination.locality,
@@ -461,6 +462,20 @@ export const DestinationDetailPage: React.FC = () => {
 
   return (
     <div className="dest-detail-page-wrapper">
+      {destination && (
+        <SEO
+          title={`${destination.name}${destination.name_as ? ` (${destination.name_as})` : ''} – Assam Tourism &amp; Heritage Guide`}
+          description={destination.shortDescription || destination.description || destination.tagline || 'Explore verified heritage and tourism sanctuaries in Assam.'}
+          canonicalPath={`/destinations/${destination.slug}`}
+          image={destination.imageUrl || destination.image}
+          keywords={`${destination.name}, ${destination.name_as || ''}, Assam tourism, ${destination.locality || ''}, ${destination.district || ''}`}
+          breadcrumbs={[
+            { name: 'Home', path: '/' },
+            { name: 'Tourism & Heritage', path: '/tourism' },
+            { name: destination.name, path: `/destinations/${destination.slug}` },
+          ]}
+        />
+      )}
       {/* Lightbox Modal with Slides Carousel Navigation */}
       {lightboxOpen && (
         <div

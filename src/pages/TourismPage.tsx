@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { useSearchParams, Link } from 'react-router-dom';
 import { District, BeautyDestination, DestinationStatus } from '../types';
 import { useLanguage } from '../context/LanguageContext';
@@ -354,6 +355,16 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
 
   return (
     <div className="tourism-experience-page">
+      <SEO
+        title="Assam Tourism &amp; Heritage Guide – Wildlife, River Islands &amp; Tea Trails"
+        description="Discover Kaziranga, Manas, UNESCO World Heritage Charaideo Maidams, Majuli island, Kamakhya Shakti Peetha, and scenic tea gardens of Assam."
+        canonicalPath="/tourism"
+        keywords="Assam tourism, Kaziranga National Park, Manas, Majuli, Charaideo Maidams, Kamakhya Temple, Assam tea gardens"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Tourism & Heritage', path: '/tourism' },
+        ]}
+      />
       {/* 1. Living Axom Hero Banner */}
       <div className="tourism-hero-banner">
         <div className="tourism-hero-gamusa-ribbon" />

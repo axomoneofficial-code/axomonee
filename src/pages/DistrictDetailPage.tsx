@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { SEO } from '../components/SEO';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { BeautyDestination } from '../types';
 import { useLanguage } from '../context/LanguageContext';
@@ -288,6 +289,19 @@ export const DistrictDetailPage: React.FC = () => {
 
   return (
     <div className="district-detail-page-wrapper">
+      {district && (
+        <SEO
+          title={`${district.name} District (${district.name_as}) – Complete Profile &amp; Directory`}
+          description={`Complete administrative and heritage guide to ${district.name} district in Assam. Headquarters: ${district.headquarters}, Division: ${district.division}. Explore verified attractions, higher education, and official administration portals.`}
+          canonicalPath={`/districts/${district.slug}`}
+          keywords={`${district.name}, ${district.name_as}, Assam districts, ${district.headquarters}, ${district.division}`}
+          breadcrumbs={[
+            { name: 'Home', path: '/' },
+            { name: 'Districts of Assam', path: '/districts' },
+            { name: district.name, path: `/districts/${district.slug}` },
+          ]}
+        />
+      )}
       {/* 1. Box-Type Breadcrumb Navigation Bar */}
       <div className="dest-breadcrumb-bar">
         <div className="dest-container">

@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { Link } from 'react-router-dom';
 import { District } from '../types';
 import { useLanguage } from '../context/LanguageContext';
@@ -147,6 +148,16 @@ export const DistrictsPage: React.FC = () => {
 
   return (
     <div className="districts-page-wrapper">
+      <SEO
+        title="Assam 35 Districts Atlas &amp; Administrative Directory"
+        description="Comprehensive atlas and profiles of all 35 official administrative districts of Assam, including headquarters, divisions, tourist attractions, and administration portals."
+        canonicalPath="/districts"
+        keywords="Assam districts, 35 districts of Assam, Assam administrative divisions, Kamrup Metro, Dibrugarh, Jorhat, Cachar, Sonitpur"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Districts of Assam', path: '/districts' },
+        ]}
+      />
       {/* 1. Hero Showcase Box */}
       <section className="districts-hero-section">
         <div className="districts-container">

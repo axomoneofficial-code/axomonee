@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { District, Listing } from '../types';
 import { ListingCard } from '../components/ListingCard';
 import { api } from '../api';
@@ -31,6 +32,16 @@ export const OpportunitiesPage: React.FC<OpportunitiesPageProps> = ({ districts,
 
   return (
     <div>
+      <SEO
+        title="Assam Youth Opportunities, Scholarships &amp; Internships"
+        description="Curated career opportunities, government scholarships, skill initiatives, and educational pathways for youth across Assam."
+        canonicalPath="/opportunities"
+        keywords="Assam scholarships, Assam youth opportunities, education Assam, internships Assam"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Opportunities', path: '/opportunities' },
+        ]}
+      />
       <div style={{ marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.35rem' }}>
           Jobs, Internships & Education Notices
@@ -90,7 +101,7 @@ export const OpportunitiesPage: React.FC<OpportunitiesPageProps> = ({ districts,
       ) : listings.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '4rem', background: '#FFFFFF', borderRadius: '16px' }}>
           <GraduationCap size={48} color="var(--primary-green)" style={{ margin: '0 auto 1rem auto' }} />
-          <h3>No opportunities active for this district</h3>
+          <h2>No opportunities active for this district</h2>
           <p style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>Check back soon as verified notices are posted weekly.</p>
         </div>
       ) : (

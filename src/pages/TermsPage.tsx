@@ -1,8 +1,18 @@
 import React from 'react';
+import { SEO } from '../components/SEO';
 
 export const TermsPage: React.FC = () => {
   return (
     <div style={{ maxWidth: '860px', margin: '0 auto' }}>
+      <SEO
+        title="Terms of Service &amp; Usage Guidelines | AXOMONE"
+        description="Terms and guidelines for using the AXOMONE Assam portal, verified content licensing, and community conduct."
+        canonicalPath="/terms"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Terms of Service', path: '/terms' },
+        ]}
+      />
       <article className="detail-container">
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
           Terms of Use & Community Standards

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SEO } from '../components/SEO';
 import { useSearchParams, Link } from 'react-router-dom';
 import { api } from '../api';
 import { Flag, CheckCircle2 } from 'lucide-react';
@@ -52,6 +53,15 @@ export const ReportPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '680px', margin: '0 auto' }}>
+      <SEO
+        title="Report Inaccuracy or Suggest Correction | AXOMONE"
+        description="Submit a data correction, flag outdated information, or report listing concerns to our editorial verification team."
+        canonicalPath="/report"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Report & Feedback', path: '/report' },
+        ]}
+      />
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--gamusa-red)', marginBottom: '0.4rem' }}>
           Report Content or Inaccurate Listing

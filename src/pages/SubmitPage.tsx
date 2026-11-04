@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SEO } from '../components/SEO';
 import { District, Category } from '../types';
 import { api } from '../api';
 import { CheckCircle2, ShieldAlert } from 'lucide-react';
@@ -103,6 +104,15 @@ export const SubmitPage: React.FC<SubmitPageProps> = ({ districts, categories })
 
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+      <SEO
+        title="Submit Listing or Update – Assam Discovery Portal | AXOMONE"
+        description="Contribute verified information about local businesses, educational institutions, historical places, or cultural events in Assam."
+        canonicalPath="/submit"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Submit Listing', path: '/submit' },
+        ]}
+      />
       <div style={{ marginBottom: '2rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.4rem' }}>
           Submit a Listing or Community Notice

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { District, Listing } from '../types';
 import { ListingCard } from '../components/ListingCard';
 import { api } from '../api';
@@ -32,6 +33,16 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ districts, initialDi
 
   return (
     <div>
+      <SEO
+        title="Assam Essential Services, Repairs &amp; Civic Utilities"
+        description="Find trusted local technicians, vehicle repairs, medical centers, emergency helplines, and municipal civic services in your Assam district."
+        canonicalPath="/services"
+        keywords="Assam services, emergency helplines Assam, vehicle repairs, appliance care, municipal services"
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Essential Services', path: '/services' },
+        ]}
+      />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem', marginBottom: '2rem' }}>
         <div>
           <h1 style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--primary-green)', marginBottom: '0.35rem' }}>

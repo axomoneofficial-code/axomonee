@@ -28,7 +28,6 @@ import { TourismPage } from './pages/TourismPage';
 import { DestinationDetailPage } from './pages/DestinationDetailPage';
 import { DistrictsPage } from './pages/DistrictsPage';
 import { DistrictDetailPage } from './pages/DistrictDetailPage';
-import { OpportunitiesPage } from './pages/OpportunitiesPage';
 import { CommunityPage } from './pages/CommunityPage';
 import { SubmitPage } from './pages/SubmitPage';
 import { AboutPage } from './pages/AboutPage';
@@ -177,15 +176,7 @@ export const App: React.FC = () => {
             />
             <Route path="/destinations/:slug" element={<DestinationDetailPage />} />
             <Route path="/tourism/:slug" element={<DestinationDetailPage />} />
-            <Route
-              path="/opportunities"
-              element={
-                <OpportunitiesPage
-                  districts={districts}
-                  initialDistrict={selectedDistrict}
-                />
-              }
-            />
+            <Route path="/opportunities" element={<Navigate to="/directory" replace />} />
             <Route
               path="/community"
               element={

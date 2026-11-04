@@ -85,13 +85,6 @@ const pages = [
     intro: 'Verified directory of essential local services, automotive care, appliance repair, and emergency civic helplines across Assam districts.',
   },
   {
-    path: 'opportunities',
-    title: 'Assam Youth Opportunities, Scholarships & Internships | AXOMONE',
-    description: 'Curated career opportunities, government scholarships, skill initiatives, and educational pathways for youth across Assam.',
-    h1: 'কৰ্মসংস্থাপন আৰু শিক্ষা (Youth Opportunities & Education)',
-    intro: 'Empowering Assam youth with verified information on higher education, professional training, public-sector apprenticeships, and scholarships.',
-  },
-  {
     path: 'community',
     title: 'Assam Citizens & Community Exchange Platform | AXOMONE',
     description: 'Connect with local Assam communities, share authentic updates, participate in cultural exchanges, and collaborate across districts.',

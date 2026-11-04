@@ -8,9 +8,9 @@ import {
   ChevronDown,
   Check,
   Store,
+  BookOpen,
   Wrench,
   Calendar,
-  GraduationCap,
   Users,
   Compass,
   Info,
@@ -30,7 +30,7 @@ const HEADER_I18N = {
     shopsDesc: 'Local verified shops & stores',
     servicesDesc: 'Essential civic & trade services',
     eventsDesc: 'Festivals & cultural calendar',
-    jobsDesc: 'Jobs, internships & schemes',
+    jobsDesc: 'Universities, heritage & helplines',
     exploreDesc: 'Explore all listings with filters',
     communityDesc: 'Public notices & community updates',
     submitTitle: 'Post / Suggest Listing',
@@ -50,7 +50,7 @@ const HEADER_I18N = {
     shopsDesc: 'স্থানীয় দোকান আৰু প্ৰতিষ্ঠান',
     servicesDesc: 'প্ৰয়োজনীয় নাগৰিক সেৱাসমূহ',
     eventsDesc: 'সাংস্কৃতিক আৰু সম্প্ৰদায় অনুষ্ঠান',
-    jobsDesc: 'কৰ্মসংস্থান আৰু শিক্ষাবৃত্তি',
+    jobsDesc: 'বিশ্ববিদ্যালয়, ঐতিহ্য আৰু চৰকাৰী সেৱা',
     exploreDesc: 'সকলো পঞ্জীয়ন অন্বেষণ কৰক',
     communityDesc: 'ৰাজহুৱা ঘোষণা আৰু চৰ্চা',
     submitTitle: 'ভুক্তি যোগ কৰক',
@@ -70,7 +70,7 @@ const HEADER_I18N = {
     shopsDesc: 'स्थानीय सत्यापित दुकानें एवं प्रतिष्ठान',
     servicesDesc: 'आवश्यक नागरिक एवं व्यापारिक सेवाएं',
     eventsDesc: 'त्योहार एवं सांस्कृतिक कैलेंडर',
-    jobsDesc: 'रोजगार, इंटर्नशिप एवं सरकारी योजनाएं',
+    jobsDesc: 'विश्वविद्यालय, धरोहर एवं नागरिक सेवाएं',
     exploreDesc: 'फ़िल्टर के साथ सभी सूचियां देखें',
     communityDesc: 'सार्वजनिक सूचनाएं एवं समुदाय चर्चा',
     submitTitle: 'सूची जोड़ें / सुझाव दें',
@@ -90,7 +90,7 @@ const HEADER_I18N = {
     shopsDesc: 'स्थानीय थि खालामजानाय दुकानफोर',
     servicesDesc: 'गोनांथार रायजोआरि सिबिथायफोर',
     eventsDesc: 'हारिमुआरि आरो समाजारि हाबाफारिफोर',
-    jobsDesc: 'चाख्रि, सोलोंथाय आरो सोरखारि आंसनफोर',
+    jobsDesc: 'सोलोंथाय, मुंदांखा आरो सरकारी सेवा',
     exploreDesc: 'गासैबो फारिफोरखौ नागिरना दिहुन',
     communityDesc: 'रायजोआरि फोसावनाय आरो सावरायनाय',
     submitTitle: 'फारि दाजाब / सुबां होनाय',
@@ -134,7 +134,7 @@ export const Header: React.FC = () => {
     '/services',
     '/explore',
     '/events',
-    '/opportunities',
+    '/directory',
   ].some((p) => location.pathname.startsWith(p));
 
   const isMoreActive = ['/community', '/submit', '/about', '/contact'].some((p) =>
@@ -388,14 +388,14 @@ export const Header: React.FC = () => {
                 </Link>
 
                 <Link
-                  to="/opportunities"
-                  className={`nav-dropdown-item ${isActive('/opportunities') ? 'active' : ''}`}
+                  to="/directory"
+                  className={`nav-dropdown-item ${isActive('/directory') ? 'active' : ''}`}
                 >
                   <div className="nav-dropdown-icon-box">
-                    <GraduationCap size={16} />
+                    <BookOpen size={16} />
                   </div>
                   <div>
-                    <div className="nav-dropdown-title">{t.nav.opportunities}</div>
+                    <div className="nav-dropdown-title">{t.nav.directory}</div>
                     <div className="nav-dropdown-desc">
                       {ht.jobsDesc}
                     </div>
@@ -775,12 +775,12 @@ export const Header: React.FC = () => {
                 <span>{t.nav.events}</span>
               </Link>
               <Link
-                to="/opportunities"
+                to="/directory"
                 className="mobile-nav-link"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <GraduationCap size={16} color="#4B5563" />
-                <span>{t.nav.opportunities}</span>
+                <BookOpen size={16} color="#4B5563" />
+                <span>{t.nav.directory}</span>
               </Link>
               <Link
                 to="/explore"

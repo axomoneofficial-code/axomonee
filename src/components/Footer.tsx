@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
           <ul className="footer-link-list">
             <li><Link to="/events">{t.nav.events}</Link></li>
             <li><Link to="/tourism">{t.nav.tourism}</Link></li>
-            <li><Link to="/opportunities">{t.nav.opportunities}</Link></li>
+            <li><Link to="/directory">{t.nav.directory}</Link></li>
             <li><Link to="/community">{t.nav.community}</Link></li>
           </ul>
         </div>

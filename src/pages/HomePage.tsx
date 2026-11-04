@@ -12,12 +12,10 @@ import {
   Wrench,
   Utensils,
   Mountain,
-  GraduationCap,
   Calendar,
   Users,
   ChevronLeft,
   ChevronRight,
-  Sparkles,
   BookOpen,
 } from 'lucide-react';
 
@@ -198,17 +196,6 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
           </Link>
 
-          {/* 5. Opportunities */}
-          <Link to="/opportunities" className="category-pill-card">
-            <div className="category-pill-icon">
-              <GraduationCap size={18} />
-            </div>
-            <div className="category-pill-text">
-              <span className="category-pill-title">{t.categories.opportunitiesTitle}</span>
-              <span className="category-pill-subtitle">{t.categories.opportunitiesSub}</span>
-            </div>
-          </Link>
-
           {/* 6. Events */}
           <Link to="/events" className="category-pill-card">
             <div className="category-pill-icon">
@@ -346,18 +333,18 @@ export const HomePage: React.FC<HomePageProps> = ({
             </Link>
           </div>
 
-          {/* Banner 2: Build Your Future (Warm Cream / Ivory) */}
+          {/* Banner 2: Assam Official Directory (Warm Cream / Ivory) */}
           <div className="promo-banner-card banner-cream">
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#B45309', marginBottom: '0.5rem' }}>
-                <Sparkles size={20} />
+                <BookOpen size={20} />
               </div>
               <h3 className="banner-title" style={{ color: '#1F2937', whiteSpace: 'pre-line' }}>{t.promos.buildFutureTitle}</h3>
               <p className="banner-desc" style={{ color: '#4B5563' }}>
                 {t.promos.buildFutureDesc}
               </p>
             </div>
-            <Link to="/opportunities" className="banner-btn-pill btn-pill-cream">
+            <Link to="/directory" className="banner-btn-pill btn-pill-cream">
               <span>{t.promos.buildFutureBtn}</span>
               <ArrowRight size={13} />
             </Link>

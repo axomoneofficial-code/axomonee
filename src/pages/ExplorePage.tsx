@@ -83,7 +83,7 @@ export const ExplorePage: React.FC<ExplorePageProps> = ({
           Explore Assam Directory
         </h1>
         <p className="page-main-desc">
-          Discover local enterprises, verified service providers, handloom cooperatives, eco-tourism trails, and opportunities across all 35 districts of Assam.
+          Discover local enterprises, verified service providers, handloom cooperatives, and eco-tourism trails across all 35 districts of Assam.
         </p>
         <div className="page-divider-strip" />
       </div>
@@ -174,7 +174,7 @@ export const ExplorePage: React.FC<ExplorePageProps> = ({
               <option value="business">Businesses & Shops</option>
               <option value="service">Essential Services</option>
               <option value="tourism">Tourism & Travel</option>
-              <option value="opportunity">Jobs & Internships</option>
+              <option value="directory">Official Directory & Heritage</option>
               <option value="community">Community Notices</option>
             </select>
           </div>

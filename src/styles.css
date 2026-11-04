@@ -384,7 +384,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   transition: opacity 0.3s ease;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1360px) {
   .gamusa-header-flank {
     display: none !important;
   }
@@ -411,11 +411,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* 1. Left Zone: Brand Logo & Title */
 .brand-group {
-  flex: 1 1 0;
-  min-width: 0;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.65rem;
   text-decoration: none;
   cursor: pointer;
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -473,21 +472,22 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* 2. Center Zone: Navigation Links - Perfectly Centered in Header */
 .nav-center-links {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(0.35rem, 0.8vw, 0.95rem);
+  gap: clamp(0.2rem, 0.5vw, 0.75rem);
 }
 
 .nav-link-item {
-  height: 38px;
+  height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0.85rem;
+  padding: 0 clamp(0.45rem, 0.55vw, 0.75rem);
   border-radius: 9999px;
-  font-size: 0.925rem;
+  font-size: clamp(0.825rem, 0.8vw, 0.885rem);
   font-weight: 600;
   color: #475569;
   letter-spacing: -0.01em;
@@ -551,7 +551,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 
 .nav-dropdown-trigger {
-  height: 38px;
+  height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -559,10 +559,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   border: 1px solid transparent;
   border-radius: 9999px;
   font-family: inherit;
-  font-size: 0.925rem;
+  font-size: clamp(0.825rem, 0.8vw, 0.885rem);
   font-weight: 600;
   color: #475569;
-  padding: 0 0.85rem;
+  padding: 0 clamp(0.45rem, 0.55vw, 0.75rem);
   box-sizing: border-box;
   cursor: pointer;
   gap: 0.35rem;
@@ -829,12 +829,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* 3. Right Zone: Utilities & Controls */
 .header-right-controls {
-  flex: 1 1 0;
-  min-width: 0;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.65rem;
+  gap: 0.5rem;
 }
 
 /* Dedicated Help Quick Link with Smooth Micro-Interactions */
@@ -2789,7 +2788,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .directory-layout {
     grid-template-columns: 1fr;
   }
@@ -9473,32 +9472,33 @@ html, body {
   font-weight: 800;
 }
 
-/* Responsive header search and navigation visibility */
-@media (max-width: 1280px) {
-  .header-inner {
-    padding: 0.55rem 1rem;
-    gap: 0.75rem;
+/* Responsive header search and navigation visibility - Zero Collisions */
+@media (max-width: 1360px) {
+  .gamusa-header-flank {
+    display: none !important;
   }
-  .brand-group {
-    flex: 0 0 auto;
-  }
-  .header-right-controls {
-    flex: 0 0 auto;
-  }
-  .nav-center-links {
-    flex: 1 1 auto;
-    justify-content: center;
-    gap: clamp(0.25rem, 0.6vw, 0.75rem);
-    margin: 0 0.5rem;
+  .header-help-btn {
+    display: none !important;
   }
   .header-search-kbd {
-    display: none;
+    display: none !important;
+  }
+  .brand-tagline {
+    display: none !important;
+  }
+  .header-search-text {
+    max-width: 85px;
+  }
+  .header-inner {
+    padding: 0.5rem 1rem;
+    gap: 0.75rem;
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .header-inner {
-    padding: 0.55rem 1rem;
+    padding: 0.45rem 0.85rem !important;
+    gap: 0.5rem !important;
   }
   .nav-center-links {
     display: none !important;
@@ -9511,6 +9511,12 @@ html, body {
   }
   .header-mobile-search-btn {
     display: inline-flex !important;
+  }
+  .header-help-btn {
+    display: none !important;
+  }
+  .gamusa-header-flank {
+    display: none !important;
   }
 }
 

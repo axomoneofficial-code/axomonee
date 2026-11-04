@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="theme-color" content="#DC2626" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="AXOM ONE" />
+    <meta name="description" content="Axom One - All-in-One Smart Community, Civic, Tourism & Cultural Portal for Assam. Discover verified listings, 35 districts atlas, heritage destinations, and community events." />
+    <link rel="canonical" href="https://axomone.in/" />
+    <title>Axom One | অসম এক মঞ্চ</title>
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://axomone.in/" />
+    <meta property="og:title" content="AXOM ONE — Discover Local. Connect Assam." />
+    <meta property="og:description" content="All-in-One Smart Community, Civic, Tourism & Cultural Portal for Assam. Explore 35 districts, heritage sanctuaries, Raas Mahotsavs, and local services." />
+    <meta property="og:image" content="https://axomone.in/images/axom-nav-emblem.png" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://axomone.in/" />
+    <meta name="twitter:title" content="AXOM ONE — Discover Local. Connect Assam." />
+    <meta name="twitter:description" content="Smart Community, Civic, Tourism & Cultural Portal for Assam." />
+    <meta name="twitter:image" content="https://axomone.in/images/axom-nav-emblem.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AXOM ONE",
+      "alternateName": ["Axom One", "অসম এক মঞ্চ"],
+      "url": "https://axomone.in/",
+      "description": "Smart Community, Civic, Tourism & Cultural Portal for Assam covering all 35 official administrative districts.",
+      "inLanguage": ["as", "en", "hi"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://axomone.in/explore?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- GitHub Pages Single Page Application URL Decoder -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+
+    <!-- DNS Prefetch & Preconnect for High-Speed Connection -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload Critical Hero Banner & Header Gamusa Image for Instant First Paint -->
+    <link rel="preload" as="image" href="/images/hero-panoramic-master.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/gamusa-top-strip.png" type="image/png" />
+
+    <!-- Non-Render-Blocking Asynchronous Google Fonts Loading -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Outfit:wght@600;700;800&family=Tiro+Bangla:ital@0;1&family=Hind+Siliguri:wght@500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Outfit:wght@600;700;800&family=Tiro+Bangla:ital@0;1&family=Hind+Siliguri:wght@500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap"
+      />
+    </noscript>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

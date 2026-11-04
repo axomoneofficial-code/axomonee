@@ -1,0 +1,317 @@
+[
+  {
+    "id": "dist-kamrup-metro",
+    "name": "Kamrup Metropolitan",
+    "slug": "kamrup-metropolitan",
+    "name_as": "কামৰূপ মহানগৰ",
+    "headquarters": "Guwahati",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-baksa",
+    "name": "Baksa",
+    "slug": "baksa",
+    "name_as": "বাক্সা",
+    "headquarters": "Mushalpur",
+    "division": "Lower Assam (BTR)",
+    "is_active": 1
+  },
+  {
+    "id": "dist-barpeta",
+    "name": "Barpeta",
+    "slug": "barpeta",
+    "name_as": "বৰপেটা",
+    "headquarters": "Barpeta",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-bajali",
+    "name": "Bajali",
+    "slug": "bajali",
+    "name_as": "বজালী",
+    "headquarters": "Pathsala",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-biswanath",
+    "name": "Biswanath",
+    "slug": "biswanath",
+    "name_as": "বিশ্বনাথ",
+    "headquarters": "Biswanath Chariali",
+    "division": "North Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-bongaigaon",
+    "name": "Bongaigaon",
+    "slug": "bongaigaon",
+    "name_as": "বঙাইগাঁও",
+    "headquarters": "Bongaigaon",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-cachar",
+    "name": "Cachar",
+    "slug": "cachar",
+    "name_as": "কাছাৰ",
+    "headquarters": "Silchar",
+    "division": "Barak Valley",
+    "is_active": 1
+  },
+  {
+    "id": "dist-charaideo",
+    "name": "Charaideo",
+    "slug": "charaideo",
+    "name_as": "চৰাইদেউ",
+    "headquarters": "Sonari",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-chirang",
+    "name": "Chirang",
+    "slug": "chirang",
+    "name_as": "চিৰাং",
+    "headquarters": "Kajalgaon",
+    "division": "Lower Assam (BTR)",
+    "is_active": 1
+  },
+  {
+    "id": "dist-darrang",
+    "name": "Darrang",
+    "slug": "darrang",
+    "name_as": "দৰং",
+    "headquarters": "Mangaldai",
+    "division": "North Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-dhemaji",
+    "name": "Dhemaji",
+    "slug": "dhemaji",
+    "name_as": "ধেমাযী",
+    "headquarters": "Dhemaji",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-dhubri",
+    "name": "Dhubri",
+    "slug": "dhubri",
+    "name_as": "ধুবুৰী",
+    "headquarters": "Dhubri",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-dibrugarh",
+    "name": "Dibrugarh",
+    "slug": "dibrugarh",
+    "name_as": "ডিব্ৰুগড়",
+    "headquarters": "Dibrugarh",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-dima-hasao",
+    "name": "Dima Hasao",
+    "slug": "dima-hasao",
+    "name_as": "ডিমা হাছাও",
+    "headquarters": "Haflong",
+    "division": "Central Assam / Hills",
+    "is_active": 1
+  },
+  {
+    "id": "dist-goalpara",
+    "name": "Goalpara",
+    "slug": "goalpara",
+    "name_as": "গোৱালপাৰা",
+    "headquarters": "Goalpara",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-golaghat",
+    "name": "Golaghat",
+    "slug": "golaghat",
+    "name_as": "গোলাঘাট",
+    "headquarters": "Golaghat",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-hailakandi",
+    "name": "Hailakandi",
+    "slug": "hailakandi",
+    "name_as": "হাইলাকান্দি",
+    "headquarters": "Hailakandi",
+    "division": "Barak Valley",
+    "is_active": 1
+  },
+  {
+    "id": "dist-hojai",
+    "name": "Hojai",
+    "slug": "hojai",
+    "name_as": "হোজাই",
+    "headquarters": "Sankardev Nagar",
+    "division": "Central Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-jorhat",
+    "name": "Jorhat",
+    "slug": "jorhat",
+    "name_as": "যোৰহাট",
+    "headquarters": "Jorhat",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-kamrup",
+    "name": "Kamrup",
+    "slug": "kamrup-rural",
+    "name_as": "কামৰূপ গ্ৰাম্য",
+    "headquarters": "Amingaon",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-karbi-anglong",
+    "name": "Karbi Anglong",
+    "slug": "karbi-anglong",
+    "name_as": "কাৰ্বি আংলং",
+    "headquarters": "Diphu",
+    "division": "Central Assam / Hills",
+    "is_active": 1
+  },
+  {
+    "id": "dist-karimganj",
+    "name": "Karimganj",
+    "slug": "karimganj",
+    "name_as": "কৰিমগঞ্জ",
+    "headquarters": "Karimganj",
+    "division": "Barak Valley",
+    "is_active": 1
+  },
+  {
+    "id": "dist-kokrajhar",
+    "name": "Kokrajhar",
+    "slug": "kokrajhar",
+    "name_as": "কোকৰাঝাৰ",
+    "headquarters": "Kokrajhar",
+    "division": "Lower Assam (BTR)",
+    "is_active": 1
+  },
+  {
+    "id": "dist-lakhimpur",
+    "name": "Lakhimpur",
+    "slug": "lakhimpur",
+    "name_as": "লখিমপুৰ",
+    "headquarters": "North Lakhimpur",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-majuli",
+    "name": "Majuli",
+    "slug": "majuli",
+    "name_as": "মাজুলী",
+    "headquarters": "Garamur",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-morigaon",
+    "name": "Morigaon",
+    "slug": "morigaon",
+    "name_as": "মৰিগাঁও",
+    "headquarters": "Morigaon",
+    "division": "Central Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-nagaon",
+    "name": "Nagaon",
+    "slug": "nagaon",
+    "name_as": "নগাঁও",
+    "headquarters": "Nagaon",
+    "division": "Central Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-nalbari",
+    "name": "Nalbari",
+    "slug": "nalbari",
+    "name_as": "নলবাৰী",
+    "headquarters": "Nalbari",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-sivasagar",
+    "name": "Sivasagar",
+    "slug": "sivasagar",
+    "name_as": "শিৱসাগৰ",
+    "headquarters": "Sivasagar",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-sonitpur",
+    "name": "Sonitpur",
+    "slug": "sonitpur",
+    "name_as": "শোণিতপুৰ",
+    "headquarters": "Tezpur",
+    "division": "North Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-south-salmara",
+    "name": "South Salmara-Mankachar",
+    "slug": "south-salmara-mankachar",
+    "name_as": "দক্ষিণ শালমাৰা-মানকাচৰ",
+    "headquarters": "Hatsingimari",
+    "division": "Lower Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-tamulpur",
+    "name": "Tamulpur",
+    "slug": "tamulpur",
+    "name_as": "তামুলপুৰ",
+    "headquarters": "Tamulpur",
+    "division": "Lower Assam (BTR)",
+    "is_active": 1
+  },
+  {
+    "id": "dist-tinsukia",
+    "name": "Tinsukia",
+    "slug": "tinsukia",
+    "name_as": "তিনিচুকীয়া",
+    "headquarters": "Tinsukia",
+    "division": "Upper Assam",
+    "is_active": 1
+  },
+  {
+    "id": "dist-udalguri",
+    "name": "Udalguri",
+    "slug": "udalguri",
+    "name_as": "ওদালগুৰি",
+    "headquarters": "Udalguri",
+    "division": "Lower Assam (BTR)",
+    "is_active": 1
+  },
+  {
+    "id": "dist-west-karbi",
+    "name": "West Karbi Anglong",
+    "slug": "west-karbi-anglong",
+    "name_as": "পশ্চিম কাৰ্বি আংলং",
+    "headquarters": "Hamren",
+    "division": "Central Assam / Hills",
+    "is_active": 1
+  }
+]

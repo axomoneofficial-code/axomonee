@@ -1,0 +1,99 @@
+[
+  {
+    "id": "education",
+    "label": "Universities & Education",
+    "name_as": "বিশ্ববিদ্যালয় আৰু উচ্চ শিক্ষা",
+    "description": "Public universities, institutes of national importance, engineering and medical colleges across Assam",
+    "icon": "GraduationCap",
+    "subcategories": [
+      "University",
+      "Central University",
+      "State University",
+      "Institute of National Importance",
+      "Medical Institute",
+      "State Technical University",
+      "Agricultural University",
+      "Open University",
+      "Education directory"
+    ]
+  },
+  {
+    "id": "heritage",
+    "label": "Heritage & Archaeology",
+    "name_as": "ঐতিহাসিক আৰু পুৰাতাত্ত্বিক স্থান",
+    "description": "Ahom monuments, UNESCO World Heritage Charaideo Maidams, ancient palaces, and rock carvings",
+    "icon": "Landmark",
+    "subcategories": [
+      "UNESCO World Heritage Site",
+      "Ahom palace",
+      "Ahom-era monument",
+      "Archaeological site",
+      "Archaeological site and site museum",
+      "Industrial heritage",
+      "Official heritage directory"
+    ]
+  },
+  {
+    "id": "temples-spiritual",
+    "label": "Temples & Spiritual Places",
+    "name_as": "মন্দিৰ আৰু ধৰ্মীয় তীৰ্থস্থান",
+    "description": "Sacred shakti peethas, sattras of Srimanta Sankardev, island temples, and pilgrimage centers",
+    "icon": "Church",
+    "subcategories": [
+      "Temple",
+      "Shakti Peetha",
+      "Vaishnavite Satra",
+      "Vaishnavite Than & Shrine",
+      "Vaishnavite Bornamghar",
+      "Devalaya & Heritage",
+      "Ashram & Temple",
+      "Astronomical Temple",
+      "Sacred Altar",
+      "Archaeological Temple",
+      "Temple and heritage",
+      "Living cultural heritage",
+      "Sacred Confluence & Shrine"
+    ]
+  },
+  {
+    "id": "nature-wildlife",
+    "label": "National Parks & Nature",
+    "name_as": "ৰাষ্ট্ৰীয় উদ্যান আৰু জৈৱবৈচিত্ৰ্য",
+    "description": "Kaziranga, Manas, Dibru-Saikhowa, Ramsar wetlands, and wildlife sanctuaries",
+    "icon": "Trees",
+    "subcategories": [
+      "National Park",
+      "National Park and Tiger Reserve",
+      "Wildlife Sanctuary",
+      "Wetland and bird habitat",
+      "Official wildlife directory"
+    ]
+  },
+  {
+    "id": "museums-culture",
+    "label": "Museums & Culture",
+    "name_as": "সংগ্ৰহালয় আৰু কলা-সংস্কৃতি",
+    "description": "State museums, Kalakshetra cultural hubs, tea heritage centres, and ethnographical galleries",
+    "icon": "Palette",
+    "subcategories": [
+      "Museum",
+      "Cultural complex and museum",
+      "Archaeological site and site museum",
+      "Living cultural heritage"
+    ]
+  },
+  {
+    "id": "public-services",
+    "label": "Official Directories & Public Services",
+    "name_as": "চৰকাৰী আৰু ৰাজহুৱা সেৱা",
+    "description": "Official government citizen portals, emergency helplines, municipal offices, and verification registries",
+    "icon": "ShieldCheck",
+    "subcategories": [
+      "Government directory",
+      "Official tourism directory",
+      "National education directory",
+      "Official wildlife directory",
+      "Official heritage directory"
+    ]
+  }
+]

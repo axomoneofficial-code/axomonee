@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Axom One | অসম এক মঞ্চ</title>
+    <script>
+      // Single Page Application redirect script for GitHub Pages
+      // Auto-detects project page (subfolder) vs custom domain / user root page
+      var isProjectPage = window.location.hostname.endsWith('github.io') && window.location.pathname.split('/').filter(Boolean).length > 0;
+      var pathSegmentsToKeep = isProjectPage ? 1 : 0;
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '') +
+          l.pathname
+            .split('/')
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join('/') +
+          '/?/' +
+          l.pathname
+            .slice(1)
+            .split('/')
+            .slice(pathSegmentsToKeep)
+            .join('/')
+            .replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+      );
+    </script>
+  </head>
+  <body>
+    Redirecting to AXOM ONE...
+  </body>
+</html>

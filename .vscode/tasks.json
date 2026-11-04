@@ -1,0 +1,62 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "label": "npm: dev (Vite Dev Server)",
+      "detail": "Starts the local development server at http://localhost:5173",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "fileLocation": "relative",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*vite.*ready.*",
+          "endsPattern": ".*Local:.*"
+        }
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "label": "npm: build (Production Build)",
+      "detail": "Runs TypeScript typecheck and bundles Vite client into dist/",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "type": "npm",
+      "script": "test",
+      "label": "npm: test (Run Vitest Suite)",
+      "detail": "Runs all unit tests in the Vitest test runner",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "typecheck",
+      "label": "npm: typecheck",
+      "detail": "Performs in-memory TypeScript type checking across client and worker",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "type": "npm",
+      "script": "worker:dev",
+      "label": "npm: worker:dev",
+      "detail": "Starts Cloudflare Wrangler local developer preview",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "javascript.suggest.completeFunctionCalls": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.tsbuildinfo": true,
+    "**/.wrangler": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.wrangler": true,
+    "**/*.tsbuildinfo": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, pnpm-lock.yaml, yarn.lock",
+    "tsconfig.json": "tsconfig.*.json, *.tsbuildinfo",
+    "vite.config.ts": "vitest.config.*, .env*",
+    "wrangler.toml": ".dev.vars*"
+  }
+}

@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Node dependencies & outputs
+node_modules
+dist
+dist-ssr
+*.local
+.vite
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & credentials
+.env
+.env.production
+.env.staging
+.env.local
+.dev.vars
+
+# Cloudflare Wrangler
+.wrangler
+
+# Scratch & Temporary
+scratch/
+
+# Archives and Backups
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+*.tmp
+*.backup

@@ -1,0 +1,36 @@
+{
+  "name": "axom-one",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.worker.json --noEmit",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "worker:dev": "wrangler dev",
+    "worker:deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply axom-one-db --local",
+    "db:migrate:remote": "wrangler d1 migrations apply axom-one-db --remote",
+    "db:seed:local": "wrangler d1 execute axom-one-db --local --file=./worker/seed.sql",
+    "db:seed:remote": "wrangler d1 execute axom-one-db --remote --file=./worker/seed.sql"
+  },
+  "dependencies": {
+    "lucide-react": "^1.66.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5",
+    "vitest": "^2.1.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "wrangler": "^3.84.0"
+  }
+}

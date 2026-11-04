@@ -3694,24 +3694,62 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 0.5rem;
   padding-top: 0.85rem;
   border-top: 1px solid var(--border-subtle);
   margin-top: auto;
 }
 
+.directory-footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
 .directory-btn-website {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.3rem;
   font-size: 0.775rem;
   font-weight: 700;
-  color: #2563EB;
+  color: #1D4ED8;
+  background: #EFF6FF;
+  border: 1px solid #DBEAFE;
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
   text-decoration: none;
+  transition: all 0.15s ease;
 }
 
 .directory-btn-website:hover {
-  text-decoration: underline;
+  background: #DBEAFE;
+  color: #1E40AF;
+  text-decoration: none;
+}
+
+.directory-btn-google {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.775rem;
+  font-weight: 700;
+  color: #374151;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.directory-btn-google:hover {
+  background: #F3F4F6;
+  border-color: #D1D5DB;
+  color: #111827;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .directory-btn-details {
@@ -3957,6 +3995,28 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   font-size: 0.825rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+.directory-action-btn-google {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  background: #FFFFFF;
+  color: #1F2937;
+  font-size: 0.825rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.directory-action-btn-google:hover {
+  background: #F9FAFB;
+  border-color: #D1D5DB;
+  color: #111827;
 }
 
 /* 9. Admin Verification Desk */

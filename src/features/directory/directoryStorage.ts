@@ -31,7 +31,7 @@ export function getNextStorageKey(currentKey: string): string {
 }
 
 // Current active storage key for directory records
-export const CURRENT_STORAGE_VERSION = 9;
+export const CURRENT_STORAGE_VERSION = 10;
 export const STORAGE_KEY = `${STORAGE_KEY_PREFIX}v${CURRENT_STORAGE_VERSION}`;
 
 /**

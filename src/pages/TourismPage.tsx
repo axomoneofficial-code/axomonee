@@ -805,7 +805,7 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                       title={`Search real photos of ${dest.name} on Google Images`}
                     >
                       <Camera size={11} />
-                      <span>Real Pictures ↗</span>
+                      <span>See All Pictures ↗</span>
                     </a>
 
                     <div className="tourism-card-badges">
@@ -1274,7 +1274,7 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                     title={`Search real photos of ${activeModalDest.name} on Google Images`}
                   >
                     <Camera size={13} className="text-rose-600" />
-                    <span>Real Pictures</span>
+                    <span>See All Pictures</span>
                     <ExternalLink size={11} />
                   </a>
                   {activeModalDest.sourceUrl && (

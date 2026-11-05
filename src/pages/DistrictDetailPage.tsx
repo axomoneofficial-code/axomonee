@@ -53,7 +53,7 @@ const DETAIL_I18N = {
     districtNotFoundDesc: 'The district slug does not match any of the 35 recognized administrative districts of Assam.',
     goBack: 'Go Back',
     officialWebsite: 'Official Website',
-    realPictures: 'Real Pictures (Google)',
+    seeAllPictures: 'See All Pictures',
   },
   as: {
     home: 'গৃহ',
@@ -81,7 +81,7 @@ const DETAIL_I18N = {
     districtNotFoundDesc: 'অনুগ্ৰহ কৰি অসমৰ ৩৫ খন প্ৰশাসনিক জিলাৰ তালিকাৰ পৰা বাছনি কৰক।',
     goBack: 'উভতি যাওক',
     officialWebsite: 'চৰকাৰী ৱেবছাইট',
-    realPictures: 'প্ৰকৃত ছবি (Google)',
+    seeAllPictures: 'সকলো ছবি চাওক',
   },
   hi: {
     home: 'होम',
@@ -101,7 +101,7 @@ const DETAIL_I18N = {
     publicServicesTitle: 'सार्वजनिक सेवाएं एवं नागरिक पोर्टल',
     officialPortalTag: 'आधिकारिक पोर्टल',
     adminOfficeTitle: (name: string) => `${name} जिला प्रशासन`,
-    realPictures: 'तस्वीरें (Google)',
+    seeAllPictures: 'सभी तस्वीरें देखें',
     adminOfficeDesc: 'जिला उपायुक्त कार्यालय एवं प्रशासनिक विभागों का आधिकारिक डिजिटल पोर्टल।',
     detailsBtn: 'विवरण',
     viewDetailsAction: 'संपूर्ण विवरण',
@@ -355,7 +355,7 @@ export const DistrictDetailPage: React.FC = () => {
                   title={`Search real photos of ${district.name} on Google Images`}
                 >
                   <Camera size={13} />
-                  <span>{(dt as any).realPictures || 'Real Pictures (Google)'}</span>
+                  <span>{(dt as any).seeAllPictures || 'See All Pictures'}</span>
                   <ExternalLink size={11} />
                 </a>
 

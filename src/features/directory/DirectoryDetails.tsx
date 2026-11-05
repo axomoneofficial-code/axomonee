@@ -222,14 +222,14 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
             <div className="directory-meta-card">
               <Camera size={18} className="text-rose-600 shrink-0" />
               <div>
-                <div className="text-xs text-gray-500 font-medium">Real Pictures & Campus Photos</div>
+                <div className="text-xs text-gray-500 font-medium">Authentic Campus & Landmark Photos</div>
                 <a
                   href={googleImageSearchUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-semibold text-rose-700 hover:text-rose-800 hover:underline flex items-center gap-1 truncate"
                 >
-                  <span>Real Pictures on Google</span>
+                  <span>See All Pictures on Google</span>
                   <ExternalLink size={12} className="shrink-0" />
                 </a>
               </div>
@@ -384,7 +384,7 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
                 title={`Search real photos of ${item.name} on Google Images`}
               >
                 <Camera size={14} className="text-rose-600" />
-                <span>Real Pictures</span>
+                <span>See All Pictures</span>
                 <ExternalLink size={12} />
               </a>
 

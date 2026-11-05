@@ -684,7 +684,7 @@ export const DestinationDetailPage: React.FC = () => {
                   title="Search real photos on Google Images"
                 >
                   <Camera size={14} className="text-rose-600" />
-                  <span>{language === 'as' ? 'প্ৰকৃত ছবি (Google)' : 'Real Pictures'}</span>
+                  <span>{language === 'as' ? 'সকলো ছবি চাওক' : 'See All Pictures'}</span>
                   <ExternalLink size={12} />
                 </a>
 
@@ -856,10 +856,10 @@ export const DestinationDetailPage: React.FC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="dest-photo-google-btn"
-                    title={`Search real photos of ${destination.name} on Google Images`}
+                    title={`See all photos of ${destination.name} on Google Images`}
                   >
                     <Camera size={13} />
-                    <span>Real Pictures ↗</span>
+                    <span>See All Pictures ↗</span>
                   </a>
                   <button
                     type="button"

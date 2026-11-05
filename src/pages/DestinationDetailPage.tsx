@@ -829,7 +829,7 @@ export const DestinationDetailPage: React.FC = () => {
             >
               <DestinationImage
                 key={currentSlide.url}
-                src={getAssetUrl(currentSlide.url)}
+                src={currentSlide.url}
                 alt={currentSlide.caption || destination.name}
                 className="dest-hero-photo animate-fadeIn"
                 category={destination.category}
@@ -843,8 +843,8 @@ export const DestinationDetailPage: React.FC = () => {
                   <Camera size={13} />
                   <span>
                     {gallerySlides.length > 1
-                      ? `${activeSlideIndex + 1} / ${gallerySlides.length} Photos`
-                      : '1 Photo'}
+                      ? `Photo ${activeSlideIndex + 1} of ${gallerySlides.length} Available`
+                      : '1 Photo Available'}
                   </span>
                   {gallerySlides.length > 1 && (
                     <span className="dest-slide-swipe-hint"> • Swipe ↔</span>
@@ -906,50 +906,70 @@ export const DestinationDetailPage: React.FC = () => {
                   )}
                 </div>
 
-                {/* Dot Indicators */}
+                {/* Dot Indicators & Photo Count */}
                 {gallerySlides.length > 1 && (
-                  <div
-                    className="dest-slider-dots-row"
-                    onClick={(e) => e.stopPropagation()}
-                    role="tablist"
-                    aria-label="Photo slides indicator"
-                  >
-                    {gallerySlides.map((_, dotIdx) => (
-                      <button
-                        key={dotIdx}
-                        type="button"
-                        role="tab"
-                        aria-selected={dotIdx === activeSlideIndex}
-                        onClick={() => setActiveSlideIndex(dotIdx)}
-                        className={`dest-slider-dot ${dotIdx === activeSlideIndex ? 'active' : ''}`}
-                        title={`Go to photo ${dotIdx + 1}`}
-                      />
-                    ))}
+                  <div className="dest-slider-dots-and-count">
+                    <span className="dest-slider-count-tag">
+                      Photo {activeSlideIndex + 1} of {gallerySlides.length}
+                    </span>
+                    <div
+                      className="dest-slider-dots-row"
+                      onClick={(e) => e.stopPropagation()}
+                      role="tablist"
+                      aria-label="Photo slides indicator"
+                    >
+                      {gallerySlides.map((_, dotIdx) => (
+                        <button
+                          key={dotIdx}
+                          type="button"
+                          role="tab"
+                          aria-selected={dotIdx === activeSlideIndex}
+                          onClick={() => setActiveSlideIndex(dotIdx)}
+                          className={`dest-slider-dot ${dotIdx === activeSlideIndex ? 'active' : ''}`}
+                          title={`Go to photo ${dotIdx + 1} of ${gallerySlides.length}`}
+                        />
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
             </div>
 
-            {/* Interactive Thumbnail Strip Row */}
+            {/* Interactive Thumbnail Strip Row with Verified Gallery Header */}
             {gallerySlides.length > 1 && (
-              <div className="dest-thumbnail-strip-row" aria-label="Photo thumbnails">
-                {gallerySlides.map((slide, thumbIdx) => (
-                  <button
-                    key={thumbIdx}
-                    type="button"
-                    onClick={() => setActiveSlideIndex(thumbIdx)}
-                    className={`dest-thumbnail-card ${thumbIdx === activeSlideIndex ? 'active' : ''}`}
-                    title={slide.caption}
-                  >
-                    <img
-                      src={getAssetUrl(slide.url)}
-                      alt={slide.caption}
-                      className="dest-thumbnail-img"
-                      loading="lazy"
-                    />
-                    <span className="dest-thumbnail-index-pill">{thumbIdx + 1}</span>
-                  </button>
-                ))}
+              <div className="dest-thumbnail-strip-wrap">
+                <div className="dest-thumbnail-strip-header">
+                  <div className="flex items-center gap-2">
+                    <Camera size={14} className="text-red-600" />
+                    <span className="dest-thumbnail-strip-title">
+                      {language === 'as'
+                        ? `গেলেৰী: ${gallerySlides.length} খন আলোকচিত্ৰ উপলব্ধ`
+                        : `Verified Photo Gallery • ${gallerySlides.length} Photos Available`}
+                    </span>
+                  </div>
+                  <span className="dest-thumbnail-strip-hint">
+                    {language === 'as' ? 'ছবি চাবলৈ ক্লিক কৰক' : 'Click any photo to view'}
+                  </span>
+                </div>
+                <div className="dest-thumbnail-strip-row" aria-label="Photo thumbnails">
+                  {gallerySlides.map((slide, thumbIdx) => (
+                    <button
+                      key={thumbIdx}
+                      type="button"
+                      onClick={() => setActiveSlideIndex(thumbIdx)}
+                      className={`dest-thumbnail-card ${thumbIdx === activeSlideIndex ? 'active' : ''}`}
+                      title={`${slide.caption} (Photo ${thumbIdx + 1} of ${gallerySlides.length})`}
+                    >
+                      <img
+                        src={getAssetUrl(slide.url)}
+                        alt={slide.caption}
+                        className="dest-thumbnail-img"
+                        loading="lazy"
+                      />
+                      <span className="dest-thumbnail-index-pill">{thumbIdx + 1}</span>
+                    </button>
+                  ))}
+                </div>
               </div>
             )}
           </div>

@@ -12998,3 +12998,76 @@ html, body {
   text-decoration: none;
   box-shadow: 0 1px 3px rgba(190, 18, 60, 0.12);
 }
+
+
+/* =========================================================================
+   DESTINATION PHOTO GALLERY VISIBILITY & COUNT ENHANCEMENTS
+   ========================================================================= */
+
+.dest-slider-dots-and-count {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.dest-slider-count-tag {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  letter-spacing: 0.02em;
+}
+
+.dest-thumbnail-strip-wrap {
+  margin-top: 1rem;
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle, #E2E8F0);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.dest-thumbnail-strip-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.dest-thumbnail-strip-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #1E293B;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.dest-thumbnail-strip-hint {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748B;
+}
+
+@media (max-width: 640px) {
+  .dest-thumbnail-strip-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  .dest-slider-dots-and-count {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.35rem;
+  }
+}

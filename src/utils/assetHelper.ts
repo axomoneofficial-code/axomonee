@@ -44,6 +44,20 @@ export function getAssetUrl(url?: string | null): string {
     base += '/';
   }
 
+  // Idempotency: if url is already prefixed with base, return as-is
+  if (base !== '/') {
+    const baseWithoutSlash = base.replace(/^\/|\/$/g, '');
+    if (trimmed.startsWith(base)) {
+      return trimmed;
+    }
+    if (trimmed.startsWith(`/${baseWithoutSlash}/`) || trimmed === `/${baseWithoutSlash}`) {
+      return trimmed;
+    }
+    if (trimmed.startsWith(`${baseWithoutSlash}/`)) {
+      return `/${trimmed}`;
+    }
+  }
+
   // Strip leading slash from path to prevent overriding base path
   const cleanPath = trimmed.startsWith('/') ? trimmed.slice(1) : trimmed;
   return `${base}${cleanPath}`;

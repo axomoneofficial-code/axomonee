@@ -108,11 +108,17 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
   showAttribution = false,
 }) => {
   const [errorStep, setErrorStep] = useState<number>(0);
-  const [loaded, setLoaded] = useState<boolean>(false);
+  const [loaded, setLoaded] = useState<boolean>(true);
+
+  // Reset error step when src changes so new slides always try loading
+  React.useEffect(() => {
+    setErrorStep(0);
+    setLoaded(true);
+  }, [src]);
 
   const visualTheme = useMemo(() => getDestinationVisualTheme(alt, category), [alt, category]);
 
-  // Direct source first, fallback to proxy for external wikimedia if needed
+  // Direct source first, fallback to alternative path or proxy if needed
   const getOptimizedSrc = (originalUrl: string, step: number): string => {
     if (!originalUrl || originalUrl.trim() === '') return '';
     if (step === 0) {
@@ -122,7 +128,11 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
       if (originalUrl.includes('upload.wikimedia.org')) {
         return `https://images.weserv.nl/?url=${encodeURIComponent(originalUrl)}&w=800&fit=cover&output=webp`;
       }
-      return '';
+      // If asset was prefixed, try relative path
+      if (originalUrl.startsWith('/')) {
+        return '.' + originalUrl;
+      }
+      return getAssetUrl(originalUrl);
     }
     return '';
   };
@@ -228,7 +238,7 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
         src={currentSrc}
         alt={alt}
         className={className}
-        loading="lazy"
+        loading="eager"
         decoding="async"
         onLoad={() => setLoaded(true)}
         onError={handleError}
@@ -237,8 +247,8 @@ export const DestinationImage: React.FC<DestinationImageProps> = ({
           height: '100%',
           objectFit: 'cover',
           display: 'block',
-          opacity: loaded ? 1 : 0,
-          transition: 'opacity 0.3s ease, transform 0.4s ease',
+          opacity: 1,
+          transition: 'transform 0.4s ease',
         }}
       />
       {attribution && showAttribution && (

@@ -47,7 +47,8 @@
       "lastVerifiedAt": null,
       "description_as": "গুৱাহাটী বিশ্ববিদ্যালয় Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Gauhati University Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "গুৱাহাটী বিশ্ববিদ্যালয়"
+      "name_as": "গুৱাহাটী বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-dibrugarh",
@@ -67,7 +68,8 @@
       "lastVerifiedAt": null,
       "description_as": "ডিব্ৰুগড় বিশ্ববিদ্যালয় Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Dibrugarh University Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "ডিব্ৰুগড় বিশ্ববিদ্যালয়"
+      "name_as": "ডিব্ৰুগড় বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-assam-university",
@@ -87,7 +89,8 @@
       "lastVerifiedAt": null,
       "description_as": "অসম বিশ্ববিদ্যালয় (শিলচৰ) Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Assam University Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "অসম বিশ্ববিদ্যালয় (শিলচৰ)"
+      "name_as": "অসম বিশ্ববিদ্যালয় (শিলচৰ)",
+      "imageUrl": "/images/directory/assam-university.jpg"
     },
     {
       "id": "edu-tezpur",
@@ -107,7 +110,8 @@
       "lastVerifiedAt": null,
       "description_as": "তেজপুৰ কেন্দ্ৰীয় বিশ্ববিদ্যালয় Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Tezpur University Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "তেজপুৰ কেন্দ্ৰীয় বিশ্ববিদ্যালয়"
+      "name_as": "তেজপুৰ কেন্দ্ৰীয় বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/tezpur-university.jpg"
     },
     {
       "id": "edu-cotton",
@@ -127,7 +131,8 @@
       "lastVerifiedAt": null,
       "description_as": "কটন বিশ্ববিদ্যালয় Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Cotton University Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "কটন বিশ্ববিদ্যালয়"
+      "name_as": "কটন বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-iitg",
@@ -173,7 +178,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "National Institute of Technology Silchar Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "National Institute of Technology Silchar Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "National Institute of Technology Silchar Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nit-silchar.jpg"
     },
     {
       "id": "edu-aau",
@@ -193,7 +199,8 @@
       "lastVerifiedAt": null,
       "description_as": "অসম কৃষি বিশ্ববিদ্যালয় Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Assam Agricultural University Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "অসম কৃষি বিশ্ববিদ্যালয়"
+      "name_as": "অসম কৃষি বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/assam-agricultural-university.jpg"
     },
     {
       "id": "edu-astu",
@@ -213,7 +220,8 @@
       "lastVerifiedAt": null,
       "description_as": "অসম বিজ্ঞান আৰু প্ৰযুক্তিবিদ্যা বিশ্ববিদ্যালয় Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Assam Science and Technology University Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "অসম বিজ্ঞান আৰু প্ৰযুক্তিবিদ্যা বিশ্ববিদ্যালয়"
+      "name_as": "অসম বিজ্ঞান আৰু প্ৰযুক্তিবিদ্যা বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/directory/aec-guwahati.jpg"
     },
     {
       "id": "edu-kkhsou",
@@ -232,7 +240,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Krishna Kanta Handiqui State Open University Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Krishna Kanta Handiqui State Open University Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Krishna Kanta Handiqui State Open University Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/gauhati-university.jpg"
     },
     {
       "id": "edu-bodoland",
@@ -252,7 +261,8 @@
       "lastVerifiedAt": null,
       "description_as": "বড়োলেণ্ড বিশ্ববিদ্যালয় (কোকৰাঝাৰ) Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Bodoland University Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "বড়োলেণ্ড বিশ্ববিদ্যালয় (কোকৰাঝাৰ)"
+      "name_as": "বড়োলেণ্ড বিশ্ববিদ্যালয় (কোকৰাঝাৰ)",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-aiims",
@@ -271,7 +281,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "AIIMS Guwahati Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "AIIMS Guwahati Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "AIIMS Guwahati Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/featured/iit-admin.jpg"
     },
     {
       "id": "heritage-moidams",
@@ -935,7 +946,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Assam State Museum Kamrup Metropolitan জিলাৰ এক প্ৰধান সাংস্কৃতিক সংগ্ৰহালয়, যিয়ে অসমৰ চহকী কলা আৰু ঐতিহ্য প্ৰদৰ্শন কৰে।",
-      "description_hi": "Assam State Museum Kamrup Metropolitan जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।"
+      "description_hi": "Assam State Museum Kamrup Metropolitan जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।",
+      "imageUrl": "/images/directory/assam-state-museum.jpg"
     },
     {
       "id": "culture-kalakshetra",
@@ -954,7 +966,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Srimanta Sankaradeva Kalakshetra Kamrup Metropolitan জিলাৰ এক প্ৰধান সাংস্কৃতিক সংগ্ৰহালয়, যিয়ে অসমৰ চহকী কলা আৰু ঐতিহ্য প্ৰদৰ্শন কৰে।",
-      "description_hi": "Srimanta Sankaradeva Kalakshetra Kamrup Metropolitan जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।"
+      "description_hi": "Srimanta Sankaradeva Kalakshetra Kamrup Metropolitan जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।",
+      "imageUrl": "/images/directory/srimanta-kalakshetra.jpg"
     },
     {
       "id": "culture-majuli",
@@ -973,7 +986,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Majuli Satras Majuli জিলাৰ এক প্ৰধান সাংস্কৃতিক সংগ্ৰহালয়, যিয়ে অসমৰ চহকী কলা আৰু ঐতিহ্য প্ৰদৰ্শন কৰে।",
-      "description_hi": "Majuli Satras Majuli जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।"
+      "description_hi": "Majuli Satras Majuli जिले का एक प्रमुख सांस्कृतिक संग्रहालय है।",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "directory-districts",
@@ -992,7 +1006,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Official Assam District Directory All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "Official Assam District Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "Official Assam District Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/destinations/brahmaputra-cruises.jpg"
     },
     {
       "id": "directory-universities",
@@ -1011,7 +1026,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Assam Universities and Colleges Directory All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "Assam Universities and Colleges Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "Assam Universities and Colleges Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/directory/gauhati-university.jpg"
     },
     {
       "id": "directory-ugc",
@@ -1030,7 +1046,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "UGC University Directory All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "UGC University Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "UGC University Directory All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "directory-archaeology",
@@ -1049,7 +1066,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Protected Archaeological Sites and Monuments of Assam All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "Protected Archaeological Sites and Monuments of Assam All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "Protected Archaeological Sites and Monuments of Assam All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/destinations/charaideo.jpg"
     },
     {
       "id": "directory-tourism",
@@ -1068,7 +1086,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Assam Tourism Destinations All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "Assam Tourism Destinations All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "Assam Tourism Destinations All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/destinations/kaziranga.jpg"
     },
     {
       "id": "directory-parks",
@@ -1087,7 +1106,8 @@
       ],
       "lastVerifiedAt": null,
       "description_as": "Assam National Parks All Assam জিলাৰ নাগৰিকসকলৰ সেৱাৰ বাবে এক চৰকাৰী প্ৰশাসনিক সেৱা কেন্দ্ৰ।",
-      "description_hi": "Assam National Parks All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।"
+      "description_hi": "Assam National Parks All Assam जिले का एक अधिकृत प्रशासनिक एवं नागरिक सेवा केंद्र है।",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-gmch",
@@ -1108,7 +1128,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Gauhati Medical College & Hospital (GMCH) Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Gauhati Medical College & Hospital (GMCH) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Gauhati Medical College & Hospital (GMCH) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/gauhati-medical-college.jpg"
     },
     {
       "id": "edu-aec",
@@ -1129,7 +1150,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Assam Engineering College (AEC) Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Assam Engineering College (AEC) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Assam Engineering College (AEC) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-bborooah",
@@ -1150,7 +1172,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "B. Borooah College Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "B. Borooah College Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "B. Borooah College Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/b-borooah-college.jpg"
     },
     {
       "id": "edu-handique",
@@ -1171,7 +1194,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Handique Girls' College Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Handique Girls' College Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Handique Girls' College Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/handique-girls-college.jpg"
     },
     {
       "id": "edu-dk-college",
@@ -1192,7 +1216,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Dakshin Kamrup College (D.K. College) Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dakshin Kamrup College (D.K. College) Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dakshin Kamrup College (D.K. College) Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dk-college.jpg"
     },
     {
       "id": "edu-rangia-college",
@@ -1213,7 +1238,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Rangia College Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Rangia College Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Rangia College Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/rangia-college.jpg"
     },
     {
       "id": "edu-sualkuchi-college",
@@ -1234,7 +1260,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Sualkuchi Budram Madhab Satradhikar College Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sualkuchi Budram Madhab Satradhikar College Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sualkuchi Budram Madhab Satradhikar College Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/featured/iit-campus.jpg"
     },
     {
       "id": "edu-barama-college",
@@ -1255,7 +1282,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Barama College Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Barama College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Barama College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-dhamdhama-college",
@@ -1276,7 +1304,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Dhamdhama Anchalik College Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhamdhama Anchalik College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhamdhama Anchalik College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-salbari-college",
@@ -1297,7 +1326,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Salbari College Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Salbari College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Salbari College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-goreswar-college",
@@ -1318,7 +1348,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Goreswar College Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Goreswar College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Goreswar College Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-mc-college",
@@ -1339,7 +1370,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Madhab Choudhury College (M.C. College) Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Madhab Choudhury College (M.C. College) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Madhab Choudhury College (M.C. College) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-faamc",
@@ -1360,7 +1392,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Fakhruddin Ali Ahmed Medical College (FAAMC) Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Fakhruddin Ali Ahmed Medical College (FAAMC) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Fakhruddin Ali Ahmed Medical College (FAAMC) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-bh-college",
@@ -1381,7 +1414,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "B.H. College (Barnagar College) Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "B.H. College (Barnagar College) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "B.H. College (Barnagar College) Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-barpeta-girls",
@@ -1402,7 +1436,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Barpeta Girls' College Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Barpeta Girls' College Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Barpeta Girls' College Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-bhattadev-univ",
@@ -1424,7 +1459,8 @@
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "ভট্টদেৱ বিশ্ববিদ্যালয় (পাঠশালা) Bajali জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Bhattadev University Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "ভট্টদেৱ বিশ্ববিদ্যালয় (পাঠশালা)"
+      "name_as": "ভট্টদেৱ বিশ্ববিদ্যালয় (পাঠশালা)",
+      "imageUrl": "/images/directory/bhattadev-university.jpg"
     },
     {
       "id": "edu-nirmal-haloi",
@@ -1445,7 +1481,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nirmal Haloi College Bajali জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nirmal Haloi College Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nirmal Haloi College Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bhattadev-university.jpg"
     },
     {
       "id": "edu-bajali-ttc",
@@ -1466,7 +1503,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Bajali Teachers' Training College Bajali জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bajali Teachers' Training College Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bajali Teachers' Training College Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bhattadev-university.jpg"
     },
     {
       "id": "edu-biswanath-college",
@@ -1487,7 +1525,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Biswanath College Biswanath জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Biswanath College Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Biswanath College Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/biswanath-college.jpg"
     },
     {
       "id": "edu-bnca",
@@ -1508,7 +1547,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Biswanath College of Agriculture (BNCA) Biswanath জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Biswanath College of Agriculture (BNCA) Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Biswanath College of Agriculture (BNCA) Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/biswanath-college.jpg"
     },
     {
       "id": "edu-chaiduar-college",
@@ -1529,7 +1569,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Chaiduar College Biswanath জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Chaiduar College Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Chaiduar College Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/biswanath-college.jpg"
     },
     {
       "id": "edu-bongaigaon-college",
@@ -1550,7 +1591,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Bongaigaon College Bongaigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bongaigaon College Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bongaigaon College Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/abhayapuri-college.jpg"
     },
     {
       "id": "edu-birjhora-college",
@@ -1571,7 +1613,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Birjhora Mahavidyalaya Bongaigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Birjhora Mahavidyalaya Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Birjhora Mahavidyalaya Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/abhayapuri-college.jpg"
     },
     {
       "id": "edu-abhayapuri-college",
@@ -1592,7 +1635,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Abhayapuri College Bongaigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Abhayapuri College Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Abhayapuri College Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/abhayapuri-college.jpg"
     },
     {
       "id": "edu-bongaigaon-poly",
@@ -1613,7 +1657,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bongaigaon Polytechnic Bongaigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bongaigaon Polytechnic Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bongaigaon Polytechnic Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/abhayapuri-college.jpg"
     },
     {
       "id": "edu-smch",
@@ -1634,7 +1679,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Silchar Medical College and Hospital (SMCH) Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Silchar Medical College and Hospital (SMCH) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Silchar Medical College and Hospital (SMCH) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/silchar-medical-college.jpg"
     },
     {
       "id": "edu-gc-college",
@@ -1655,7 +1701,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Gurucharan College (G.C. College) Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Gurucharan College (G.C. College) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Gurucharan College (G.C. College) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/silchar-medical-college.jpg"
     },
     {
       "id": "edu-cachar-college",
@@ -1676,7 +1723,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Cachar College Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Cachar College Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Cachar College Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/assam-university.jpg"
     },
     {
       "id": "edu-sonari-college",
@@ -1697,7 +1745,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Sonari College Charaideo জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sonari College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sonari College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-moran-college",
@@ -1718,7 +1767,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Moran College Charaideo জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Moran College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Moran College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/moran-college.jpg"
     },
     {
       "id": "edu-borhat-college",
@@ -1739,7 +1789,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Borhat B.P.B. Memorial College Charaideo জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Borhat B.P.B. Memorial College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Borhat B.P.B. Memorial College Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/moran-college.jpg"
     },
     {
       "id": "edu-bijni-college",
@@ -1760,7 +1811,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bijni College Chirang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bijni College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bijni College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-basugaon-college",
@@ -1781,7 +1833,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Basugaon College Chirang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Basugaon College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Basugaon College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-bengtal-college",
@@ -1802,7 +1855,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bengtal College Chirang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bengtal College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bengtal College Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-mangaldai-college",
@@ -1823,7 +1877,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Mangaldai College Darrang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Mangaldai College Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Mangaldai College Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/darrang-college.jpg"
     },
     {
       "id": "edu-sipajhar-college",
@@ -1844,7 +1899,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Sipajhar College Darrang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sipajhar College Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sipajhar College Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/darrang-college.jpg"
     },
     {
       "id": "edu-mangaldai-poly",
@@ -1865,7 +1921,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Mangaldai Government Polytechnic Darrang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Mangaldai Government Polytechnic Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Mangaldai Government Polytechnic Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/darrang-college.jpg"
     },
     {
       "id": "edu-dhemaji-college",
@@ -1886,7 +1943,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Dhemaji College Dhemaji জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhemaji College Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhemaji College Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-dhemaji-engg",
@@ -1907,7 +1965,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dhemaji Engineering College (DEC) Dhemaji জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhemaji Engineering College (DEC) Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhemaji Engineering College (DEC) Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-silapathar-college",
@@ -1928,7 +1987,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Silapathar College Dhemaji জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Silapathar College Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Silapathar College Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-bn-college",
@@ -1949,7 +2009,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bholanath College (B.N. College) Dhubri জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bholanath College (B.N. College) Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bholanath College (B.N. College) Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-dhubri-medical",
@@ -1970,7 +2031,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dhubri Medical College & Hospital Dhubri জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhubri Medical College & Hospital Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhubri Medical College & Hospital Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-pb-college",
@@ -1991,7 +2053,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Pramathesh Barua College (P.B. College) Dhubri জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Pramathesh Barua College (P.B. College) Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Pramathesh Barua College (P.B. College) Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-amch",
@@ -2012,7 +2075,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Assam Medical College and Hospital (AMCH) Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Assam Medical College and Hospital (AMCH) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Assam Medical College and Hospital (AMCH) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-dhsk",
@@ -2033,7 +2097,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "D.H.S.K. College Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "D.H.S.K. College Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "D.H.S.K. College Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-mdkg",
@@ -2054,7 +2119,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Manohari Devi Kanoi Girls' College (M.D.K.G.) Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Manohari Devi Kanoi Girls' College (M.D.K.G.) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Manohari Devi Kanoi Girls' College (M.D.K.G.) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-haflong-govt",
@@ -2075,7 +2141,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Haflong Government College Dima Hasao জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Haflong Government College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Haflong Government College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/haflong-govt-college.jpg"
     },
     {
       "id": "edu-hagjer-college",
@@ -2096,7 +2163,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "J.B. Hagjer Memorial College Dima Hasao জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "J.B. Hagjer Memorial College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "J.B. Hagjer Memorial College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/haflong-govt-college.jpg"
     },
     {
       "id": "edu-maibang-college",
@@ -2117,7 +2185,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Maibang Degree College Dima Hasao জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Maibang Degree College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Maibang Degree College Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/haflong-govt-college.jpg"
     },
     {
       "id": "edu-goalpara-college",
@@ -2138,7 +2207,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Goalpara College Goalpara জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Goalpara College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Goalpara College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/goalpara-college.jpg"
     },
     {
       "id": "edu-dudhnoi-college",
@@ -2159,7 +2229,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dudhnoi College Goalpara জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dudhnoi College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dudhnoi College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/goalpara-college.jpg"
     },
     {
       "id": "edu-bikali-college",
@@ -2180,7 +2251,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bikali College Goalpara জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bikali College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bikali College Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/goalpara-college.jpg"
     },
     {
       "id": "edu-dr-college",
@@ -2201,7 +2273,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Debraj Roy College (D.R. College) Golaghat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Debraj Roy College (D.R. College) Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Debraj Roy College (D.R. College) Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dr-college.jpg"
     },
     {
       "id": "edu-dkd-college",
@@ -2222,7 +2295,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "D.K.D. College (Dergaon) Golaghat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "D.K.D. College (Dergaon) Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "D.K.D. College (Dergaon) Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dr-college.jpg"
     },
     {
       "id": "edu-hpb-girls",
@@ -2243,7 +2317,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "H.P.B. Girls' College Golaghat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "H.P.B. Girls' College Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "H.P.B. Girls' College Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dr-college.jpg"
     },
     {
       "id": "edu-ss-college",
@@ -2264,7 +2339,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Srikishan Sarda College (S.S. College) Hailakandi জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Srikishan Sarda College (S.S. College) Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Srikishan Sarda College (S.S. College) Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-lala-rural",
@@ -2285,7 +2361,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Lala Rural College Hailakandi জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Lala Rural College Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Lala Rural College Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-rntu",
@@ -2306,7 +2383,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Rabindranath Tagore University (Hojai) Hojai জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Rabindranath Tagore University (Hojai) Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Rabindranath Tagore University (Hojai) Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-haji-anfar",
@@ -2327,7 +2405,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Haji Anfar Ali College Hojai জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Haji Anfar Ali College Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Haji Anfar Ali College Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-lumding-college",
@@ -2348,7 +2427,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Lumding College Hojai জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Lumding College Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Lumding College Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-jec",
@@ -2369,7 +2449,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Jorhat Engineering College (JEC) Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Jorhat Engineering College (JEC) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Jorhat Engineering College (JEC) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/jb-college.jpg"
     },
     {
       "id": "edu-jb-college",
@@ -2390,7 +2471,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Jagannath Barooah College (J.B. College) Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Jagannath Barooah College (J.B. College) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Jagannath Barooah College (J.B. College) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/jb-college.jpg"
     },
     {
       "id": "edu-jmch",
@@ -2411,7 +2493,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Jorhat Medical College & Hospital (JMCH) Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Jorhat Medical College & Hospital (JMCH) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Jorhat Medical College & Hospital (JMCH) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/jb-college.jpg"
     },
     {
       "id": "edu-diphu-govt",
@@ -2432,7 +2515,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Diphu Government College Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Diphu Government College Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Diphu Government College Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/diphu-govt-college.jpg"
     },
     {
       "id": "edu-dmch-diphu",
@@ -2453,7 +2537,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Diphu Medical College & Hospital (DMCH) Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Diphu Medical College & Hospital (DMCH) Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Diphu Medical College & Hospital (DMCH) Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/diphu-govt-college.jpg"
     },
     {
       "id": "edu-audc",
@@ -2474,7 +2559,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Assam University Diphu Campus (AUDC) Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Assam University Diphu Campus (AUDC) Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Assam University Diphu Campus (AUDC) Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/diphu-govt-college.jpg"
     },
     {
       "id": "edu-karimganj-college",
@@ -2495,7 +2581,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Karimganj College Karimganj জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Karimganj College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Karimganj College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-rabindra-sadan",
@@ -2516,7 +2603,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Rabindra Sadan Girls' College Karimganj জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Rabindra Sadan Girls' College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Rabindra Sadan Girls' College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-rk-nagar",
@@ -2537,7 +2625,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Ramkrishna Nagar College Karimganj জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Ramkrishna Nagar College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Ramkrishna Nagar College Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-cit-kokrajhar",
@@ -2558,7 +2647,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Central Institute of Technology Kokrajhar (CIT) Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Central Institute of Technology Kokrajhar (CIT) Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Central Institute of Technology Kokrajhar (CIT) Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-kmch",
@@ -2579,7 +2669,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kokrajhar Medical College & Hospital Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kokrajhar Medical College & Hospital Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kokrajhar Medical College & Hospital Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-kokrajhar-govt",
@@ -2600,7 +2691,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kokrajhar Government College Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kokrajhar Government College Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kokrajhar Government College Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-nl-college",
@@ -2621,7 +2713,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "North Lakhimpur College (Autonomous) Lakhimpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "North Lakhimpur College (Autonomous) Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "North Lakhimpur College (Autonomous) Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-lmch",
@@ -2642,7 +2735,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Lakhimpur Medical College & Hospital (LMCH) Lakhimpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Lakhimpur Medical College & Hospital (LMCH) Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Lakhimpur Medical College & Hospital (LMCH) Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-madhabdev-univ",
@@ -2663,7 +2757,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Madhabdev University Lakhimpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Madhabdev University Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Madhabdev University Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-majuli-culture-univ",
@@ -2685,7 +2780,8 @@
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "মাজুলী সাংস্কৃতিক বিশ্ববিদ্যালয় Majuli জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
       "description_hi": "Majuli University of Culture Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
-      "name_as": "মাজুলী সাংস্কৃতিক বিশ্ববিদ্যালয়"
+      "name_as": "মাজুলী সাংস্কৃতিক বিশ্ববিদ্যালয়",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "edu-majuli-college",
@@ -2706,7 +2802,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Majuli College Majuli জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Majuli College Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Majuli College Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "edu-jengraimukh-college",
@@ -2727,7 +2824,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Jengraimukh College Majuli জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Jengraimukh College Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Jengraimukh College Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "edu-morigaon-college",
@@ -2748,7 +2846,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Morigaon College Morigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Morigaon College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Morigaon College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-jagiroad-college",
@@ -2769,7 +2868,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Jagiroad College Morigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Jagiroad College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Jagiroad College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-mayang-college",
@@ -2790,7 +2890,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Mayang Anchalik College Morigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Mayang Anchalik College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Mayang Anchalik College Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/pobitora.jpg"
     },
     {
       "id": "edu-nowgong-college",
@@ -2811,7 +2912,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Nowgong College (Autonomous) Nagaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nowgong College (Autonomous) Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nowgong College (Autonomous) Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-nagaon-medical",
@@ -2832,7 +2934,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nagaon Medical College & Hospital Nagaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nagaon Medical College & Hospital Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nagaon Medical College & Hospital Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nagaon-medical-college.jpg"
     },
     {
       "id": "edu-adp-college",
@@ -2853,7 +2956,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Anandaram Dhekial Phookan College (ADP College) Nagaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Anandaram Dhekial Phookan College (ADP College) Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Anandaram Dhekial Phookan College (ADP College) Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/adp-college.jpg"
     },
     {
       "id": "edu-nalbari-college",
@@ -2874,7 +2978,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Nalbari College Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nalbari College Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nalbari College Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-kbvsasun",
@@ -2895,7 +3000,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kumar Bhaskar Varma Sanskrit & Ancient Studies University Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kumar Bhaskar Varma Sanskrit & Ancient Studies University Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kumar Bhaskar Varma Sanskrit & Ancient Studies University Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-nalbari-medical",
@@ -2916,7 +3022,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nalbari Medical College & Hospital Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nalbari Medical College & Hospital Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nalbari Medical College & Hospital Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-mnc-girls",
@@ -2937,7 +3044,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "M.N.C. Balika Mahavidyalaya Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "M.N.C. Balika Mahavidyalaya Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "M.N.C. Balika Mahavidyalaya Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-sibsagar-college",
@@ -2958,7 +3066,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Sibsagar College (Autonomous) Sivasagar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sibsagar College (Autonomous) Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sibsagar College (Autonomous) Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-gargaon-college",
@@ -2979,7 +3088,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Gargaon College Sivasagar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Gargaon College Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Gargaon College Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/kareng-ghar.jpg"
     },
     {
       "id": "edu-sivasagar-girls",
@@ -3000,7 +3110,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Sivasagar Girls' College Sivasagar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sivasagar Girls' College Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sivasagar Girls' College Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-tmch",
@@ -3021,7 +3132,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Tezpur Medical College & Hospital (TMCH) Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tezpur Medical College & Hospital (TMCH) Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tezpur Medical College & Hospital (TMCH) Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/tezpur-university.jpg"
     },
     {
       "id": "edu-darrang-college",
@@ -3042,7 +3154,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Darrang College Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Darrang College Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Darrang College Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/darrang-college.jpg"
     },
     {
       "id": "edu-tezpur-college",
@@ -3063,7 +3176,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Tezpur College Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tezpur College Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tezpur College Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/tezpur-university.jpg"
     },
     {
       "id": "edu-mankachar-college",
@@ -3084,7 +3198,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Mankachar College South Salmara-Mankachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Mankachar College South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Mankachar College South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-hatsingimari-college",
@@ -3105,7 +3220,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Hatsingimari College South Salmara-Mankachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Hatsingimari College South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Hatsingimari College South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-tamulpur-college",
@@ -3126,7 +3242,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Tamulpur Degree College Tamulpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tamulpur Degree College Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tamulpur Degree College Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-nagrijuli-college",
@@ -3147,7 +3264,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nagrijuli Model Degree College Tamulpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nagrijuli Model Degree College Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nagrijuli Model Degree College Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-tinsukia-college",
@@ -3168,7 +3286,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Tinsukia College Tinsukia জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tinsukia College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tinsukia College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/moran-college.jpg"
     },
     {
       "id": "edu-digboi-college",
@@ -3189,7 +3308,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Digboi College Tinsukia জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Digboi College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Digboi College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/digboi-oil-heritage.jpg"
     },
     {
       "id": "edu-margherita-college",
@@ -3210,7 +3330,8 @@
       ],
       "lastVerifiedAt": "2026-11-04T00:00:00Z",
       "description_as": "Margherita College Tinsukia জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Margherita College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Margherita College Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/dehing-patkai.jpg"
     },
     {
       "id": "edu-udalguri-college",
@@ -3297,7 +3418,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Hamren Government College West Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Hamren Government College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Hamren Government College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/baithalangso-kopili-river-valley.jpg"
     },
     {
       "id": "edu-baithalangso-college",
@@ -3318,7 +3440,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Baithalangso Degree College West Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Baithalangso Degree College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Baithalangso Degree College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/baithalangso-kopili-river-valley.jpg"
     },
     {
       "id": "edu-kheroni-college",
@@ -3339,7 +3462,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kheroni Model Degree College West Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kheroni Model Degree College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kheroni Model Degree College West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/baithalangso-kopili-river-valley.jpg"
     },
     {
       "id": "heritage-barpeta-doul-mandir",
@@ -3385,7 +3509,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Assam Engineering Institute (AEI) Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Assam Engineering Institute (AEI) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Assam Engineering Institute (AEI) Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-iti-guwahati",
@@ -3406,7 +3531,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Guwahati Kamrup Metropolitan জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Guwahati Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Guwahati Kamrup Metropolitan जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/cotton-university.jpg"
     },
     {
       "id": "edu-poly-kamrup",
@@ -3427,7 +3553,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kamrup Polytechnic Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kamrup Polytechnic Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kamrup Polytechnic Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/featured/iit-campus.jpg"
     },
     {
       "id": "edu-iti-rangia",
@@ -3448,7 +3575,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Rangia Kamrup জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Rangia Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Rangia Kamrup जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/featured/iit-campus.jpg"
     },
     {
       "id": "edu-poly-baksa",
@@ -3469,7 +3597,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Baksa Polytechnic Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Baksa Polytechnic Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Baksa Polytechnic Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-iti-baksa",
@@ -3490,7 +3619,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Baska (Mushalpur) Baksa জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Baska (Mushalpur) Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Baska (Mushalpur) Baksa जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-poly-barpeta",
@@ -3511,7 +3641,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Barpeta Polytechnic Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Barpeta Polytechnic Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Barpeta Polytechnic Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-iti-barpeta",
@@ -3532,7 +3663,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Barpeta Barpeta জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Barpeta Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Barpeta Barpeta जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/mc-college.jpg"
     },
     {
       "id": "edu-poly-bajali",
@@ -3553,7 +3685,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Bajali Polytechnic Institute Bajali জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Bajali Polytechnic Institute Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Bajali Polytechnic Institute Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bhattadev-university.jpg"
     },
     {
       "id": "edu-iti-bajali",
@@ -3574,7 +3707,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Pathsala (Bajali) Bajali জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Pathsala (Bajali) Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Pathsala (Bajali) Bajali जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bhattadev-university.jpg"
     },
     {
       "id": "edu-poly-biswanath",
@@ -3595,7 +3729,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Biswanath Polytechnic Biswanath জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Biswanath Polytechnic Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Biswanath Polytechnic Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/biswanath-college.jpg"
     },
     {
       "id": "edu-iti-biswanath",
@@ -3616,7 +3751,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Biswanath Biswanath জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Biswanath Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Biswanath Biswanath जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/biswanath-college.jpg"
     },
     {
       "id": "edu-iti-bongaigaon",
@@ -3637,7 +3773,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Bongaigaon Bongaigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Bongaigaon Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Bongaigaon Bongaigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/abhayapuri-college.jpg"
     },
     {
       "id": "edu-poly-silchar",
@@ -3658,7 +3795,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Silchar Polytechnic Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Silchar Polytechnic Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Silchar Polytechnic Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/assam-university.jpg"
     },
     {
       "id": "edu-iti-srikona",
@@ -3679,7 +3817,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Srikona (Silchar) Cachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Srikona (Silchar) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Srikona (Silchar) Cachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/assam-university.jpg"
     },
     {
       "id": "edu-poly-charaideo",
@@ -3700,7 +3839,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Charaideo Polytechnic Charaideo জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Charaideo Polytechnic Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Charaideo Polytechnic Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-iti-charaideo",
@@ -3721,7 +3861,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Sonari (Charaideo) Charaideo জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Sonari (Charaideo) Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Sonari (Charaideo) Charaideo जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-poly-chirang",
@@ -3742,7 +3883,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Chirang Polytechnic Chirang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Chirang Polytechnic Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Chirang Polytechnic Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-iti-chirang",
@@ -3763,7 +3905,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Chirang (Kajalgaon) Chirang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Chirang (Kajalgaon) Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Chirang (Kajalgaon) Chirang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-iti-darrang",
@@ -3784,7 +3927,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Darrang (Mangaldai) Darrang জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Darrang (Mangaldai) Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Darrang (Mangaldai) Darrang जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/darrang-college.jpg"
     },
     {
       "id": "edu-poly-dhemaji",
@@ -3805,7 +3949,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dhemaji Polytechnic Dhemaji জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhemaji Polytechnic Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhemaji Polytechnic Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-iti-dhemaji",
@@ -3826,7 +3971,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Dhemaji Dhemaji জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Dhemaji Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Dhemaji Dhemaji जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-poly-dhubri",
@@ -3847,7 +3993,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dhubri Polytechnic Dhubri জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dhubri Polytechnic Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dhubri Polytechnic Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-iti-dhubri",
@@ -3868,7 +4015,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Dhubri Dhubri জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Dhubri Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Dhubri Dhubri जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-poly-dibrugarh",
@@ -3889,7 +4037,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Dibrugarh Polytechnic Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Dibrugarh Polytechnic Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Dibrugarh Polytechnic Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-iti-barbaruah",
@@ -3910,7 +4059,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Dibrugarh (Barbaruah) Dibrugarh জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Dibrugarh (Barbaruah) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Dibrugarh (Barbaruah) Dibrugarh जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dibrugarh-university.jpg"
     },
     {
       "id": "edu-poly-haflong",
@@ -3931,7 +4081,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Haflong Government Polytechnic Dima Hasao জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Haflong Government Polytechnic Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Haflong Government Polytechnic Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/haflong-govt-college.jpg"
     },
     {
       "id": "edu-iti-haflong",
@@ -3952,7 +4103,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Haflong Dima Hasao জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Haflong Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Haflong Dima Hasao जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/haflong-govt-college.jpg"
     },
     {
       "id": "edu-iti-goalpara",
@@ -3973,7 +4125,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Goalpara Goalpara জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Goalpara Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Goalpara Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/goalpara-college.jpg"
     },
     {
       "id": "edu-poly-golaghat",
@@ -3994,7 +4147,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Golaghat Polytechnic Golaghat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Golaghat Polytechnic Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Golaghat Polytechnic Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dr-college.jpg"
     },
     {
       "id": "edu-iti-golaghat",
@@ -4015,7 +4169,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Golaghat Golaghat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Golaghat Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Golaghat Golaghat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/dr-college.jpg"
     },
     {
       "id": "edu-poly-hailakandi",
@@ -4036,7 +4191,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Hailakandi Polytechnic Hailakandi জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Hailakandi Polytechnic Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Hailakandi Polytechnic Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-iti-hailakandi",
@@ -4057,7 +4213,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Hailakandi Hailakandi জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Hailakandi Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Hailakandi Hailakandi जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-poly-hojai",
@@ -4078,7 +4235,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Hojai Polytechnic Hojai জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Hojai Polytechnic Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Hojai Polytechnic Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-iti-hojai",
@@ -4099,7 +4257,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Hojai (Lanka) Hojai জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Hojai (Lanka) Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Hojai (Lanka) Hojai जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-poly-powiet",
@@ -4120,7 +4279,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "HRH The Prince of Wales Institute of Engineering & Technology (POWIET) Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "HRH The Prince of Wales Institute of Engineering & Technology (POWIET) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "HRH The Prince of Wales Institute of Engineering & Technology (POWIET) Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/jb-college.jpg"
     },
     {
       "id": "edu-iti-jorhat",
@@ -4141,7 +4301,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Jorhat Jorhat জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Jorhat Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Jorhat Jorhat जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/jb-college.jpg"
     },
     {
       "id": "edu-poly-diphu",
@@ -4162,7 +4323,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Diphu Polytechnic Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Diphu Polytechnic Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Diphu Polytechnic Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/diphu-govt-college.jpg"
     },
     {
       "id": "edu-iti-diphu",
@@ -4183,7 +4345,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Diphu Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Diphu Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Diphu Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/diphu-govt-college.jpg"
     },
     {
       "id": "edu-poly-karimganj",
@@ -4204,7 +4367,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Karimganj Polytechnic Karimganj জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Karimganj Polytechnic Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Karimganj Polytechnic Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-iti-karimganj",
@@ -4225,7 +4389,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Karimganj Karimganj জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Karimganj Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Karimganj Karimganj जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/karimganj-college.jpg"
     },
     {
       "id": "edu-poly-kokrajhar",
@@ -4246,7 +4411,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Kokrajhar Polytechnic Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Kokrajhar Polytechnic Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Kokrajhar Polytechnic Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-iti-kokrajhar",
@@ -4267,7 +4433,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Kokrajhar Kokrajhar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Kokrajhar Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Kokrajhar Kokrajhar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/kokrajhar-govt-college.jpg"
     },
     {
       "id": "edu-poly-lakhimpur",
@@ -4288,7 +4455,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Lakhimpur Polytechnic Lakhimpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Lakhimpur Polytechnic Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Lakhimpur Polytechnic Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-iti-lakhimpur",
@@ -4309,7 +4477,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Lakhimpur Lakhimpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Lakhimpur Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Lakhimpur Lakhimpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/north-lakhimpur-college.jpg"
     },
     {
       "id": "edu-poly-majuli",
@@ -4330,7 +4499,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Majuli Polytechnic Majuli জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Majuli Polytechnic Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Majuli Polytechnic Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "edu-iti-majuli",
@@ -4351,7 +4521,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Majuli Majuli জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Majuli Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Majuli Majuli जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/majuli-satras.jpg"
     },
     {
       "id": "edu-poly-morigaon",
@@ -4372,7 +4543,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Morigaon Polytechnic Morigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Morigaon Polytechnic Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Morigaon Polytechnic Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-iti-morigaon",
@@ -4393,7 +4565,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Morigaon Morigaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Morigaon Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Morigaon Morigaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nowgong-college.jpg"
     },
     {
       "id": "edu-poly-nowgong",
@@ -4414,7 +4587,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nowgong Polytechnic Nagaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nowgong Polytechnic Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nowgong Polytechnic Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/adp-college.jpg"
     },
     {
       "id": "edu-iti-nagaon",
@@ -4435,7 +4609,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Nagaon Nagaon জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Nagaon Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Nagaon Nagaon जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/adp-college.jpg"
     },
     {
       "id": "edu-poly-nalbari",
@@ -4456,7 +4631,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Nalbari Polytechnic Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Nalbari Polytechnic Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Nalbari Polytechnic Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-iti-nalbari",
@@ -4477,7 +4653,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Nalbari Nalbari জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Nalbari Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Nalbari Nalbari जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/nalbari-medical-college.jpg"
     },
     {
       "id": "edu-poly-sibsagar",
@@ -4498,7 +4675,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Sibsagar Polytechnic Sivasagar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Sibsagar Polytechnic Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Sibsagar Polytechnic Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-iti-sivasagar",
@@ -4519,7 +4697,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Sivasagar Sivasagar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Sivasagar Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Sivasagar Sivasagar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/sibsagar-college.jpg"
     },
     {
       "id": "edu-poly-tezpur",
@@ -4540,7 +4719,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Tezpur Government Polytechnic Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tezpur Government Polytechnic Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tezpur Government Polytechnic Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/tezpur-university.jpg"
     },
     {
       "id": "edu-iti-tezpur",
@@ -4561,7 +4741,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Tezpur Sonitpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Tezpur Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Tezpur Sonitpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/tezpur-university.jpg"
     },
     {
       "id": "edu-poly-south-salmara",
@@ -4582,7 +4763,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "South Salmara Polytechnic South Salmara-Mankachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "South Salmara Polytechnic South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "South Salmara Polytechnic South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-iti-south-salmara",
@@ -4603,7 +4785,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI South Salmara-Mankachar South Salmara-Mankachar জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI South Salmara-Mankachar South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI South Salmara-Mankachar South Salmara-Mankachar जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/bn-college.jpg"
     },
     {
       "id": "edu-poly-tamulpur",
@@ -4624,7 +4807,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Tamulpur Polytechnic Tamulpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tamulpur Polytechnic Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tamulpur Polytechnic Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-iti-tamulpur",
@@ -4645,7 +4829,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Tamulpur Tamulpur জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Tamulpur Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Tamulpur Tamulpur जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/barama-college.jpg"
     },
     {
       "id": "edu-poly-tinsukia",
@@ -4666,7 +4851,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Tinsukia Polytechnic Tinsukia জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Tinsukia Polytechnic Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Tinsukia Polytechnic Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/moran-college.jpg"
     },
     {
       "id": "edu-iti-tinsukia",
@@ -4687,7 +4873,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Tinsukia Tinsukia জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Tinsukia Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Tinsukia Tinsukia जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/moran-college.jpg"
     },
     {
       "id": "edu-poly-udalguri",
@@ -4752,7 +4939,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Hamren Polytechnic West Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Hamren Polytechnic West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Hamren Polytechnic West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/baithalangso-kopili-river-valley.jpg"
     },
     {
       "id": "edu-iti-hamren",
@@ -4773,7 +4961,8 @@
       ],
       "lastVerifiedAt": "2026-10-31T00:00:00Z",
       "description_as": "Government ITI Hamren West Karbi Anglong জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Government ITI Hamren West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Government ITI Hamren West Karbi Anglong जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/destinations/baithalangso-kopili-river-valley.jpg"
     },
     {
       "id": "edu-goalpara-polytechnic",
@@ -4793,7 +4982,8 @@
       ],
       "subcategory": "Polytechnic & Higher Education",
       "description_as": "গোৱালপাৰা পলিটেকনিক Goalpara জিলাৰ এক অগ্ৰণী উচ্চ শিক্ষা প্ৰতিষ্ঠান, যিয়ে গুণগত শিক্ষা আৰু শৈক্ষিক বিকাশ সাধন কৰি আহিছে।",
-      "description_hi": "Goalpara Polytechnic Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।"
+      "description_hi": "Goalpara Polytechnic Goalpara जिले का एक प्रतिष्ठित उच्च शिक्षण संस्थान है।",
+      "imageUrl": "/images/directory/goalpara-college.jpg"
     },
     {
       "id": "heritage-rajbari-hojai",

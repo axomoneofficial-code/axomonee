@@ -82,7 +82,7 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
               onError={(e) => {
                 const target = e.currentTarget;
                 if (!target.src.includes('hero-clean-hd.jpg')) {
-                  target.src = '/images/hero-clean-hd.jpg';
+                  target.src = getAssetUrl('/images/hero-clean-hd.jpg');
                 }
               }}
             />

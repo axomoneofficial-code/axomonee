@@ -60,6 +60,24 @@ export const DirectoryCard: React.FC<DirectoryCardProps> = ({
     }
   };
 
+  // Category fallback scenic image resolver
+  const getCategoryFallbackImage = (category: string) => {
+    switch (category) {
+      case 'education':
+        return '/images/directory/cotton-university.jpg';
+      case 'heritage':
+        return '/images/destinations/charaideo.jpg';
+      case 'temples-spiritual':
+        return '/images/destinations/kamakhya.jpg';
+      case 'nature-wildlife':
+        return '/images/destinations/kaziranga.jpg';
+      case 'museums-culture':
+        return '/images/directory/assam-state-museum.jpg';
+      default:
+        return '/images/directory/cotton-university.jpg';
+    }
+  };
+
   // Status badge styling
   const renderStatusBadge = () => {
     switch (item.status) {
@@ -162,32 +180,35 @@ export const DirectoryCard: React.FC<DirectoryCardProps> = ({
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
-            background: 'linear-gradient(135deg, #F8FAFC 0%, #EEF2F6 100%)',
-            color: '#64748B',
+            backgroundImage: `linear-gradient(180deg, rgba(15, 23, 42, 0.45) 0%, rgba(15, 23, 42, 0.8) 100%), url('${getAssetUrl(getCategoryFallbackImage(item.category))}')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            color: '#FFFFFF',
             padding: '1rem',
             textAlign: 'center',
+            position: 'relative',
           }}
         >
           <div
             style={{
-              width: '46px',
-              height: '46px',
+              width: '42px',
+              height: '42px',
               borderRadius: '50%',
-              background: '#FFFFFF',
-              boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
+              background: 'rgba(255, 255, 255, 0.95)',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.25)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               color: 'var(--gamusa-red, #DC2626)',
-              marginBottom: '0.45rem',
+              marginBottom: '0.35rem',
             }}
           >
             {getCategoryIcon(item.category)}
           </div>
-          <span style={{ fontSize: '0.8rem', fontWeight: 700, color: '#334155' }}>
+          <span style={{ fontSize: '0.825rem', fontWeight: 800, color: '#FFFFFF', textShadow: '0 2px 4px rgba(0,0,0,0.6)' }}>
             {item.subcategory || item.category}
           </span>
-          <span style={{ fontSize: '0.725rem', color: '#64748B' }}>
+          <span style={{ fontSize: '0.75rem', color: '#E2E8F0', textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>
             {item.locality || item.district}
           </span>
         </div>

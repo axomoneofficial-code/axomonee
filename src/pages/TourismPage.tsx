@@ -796,6 +796,15 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                       attribution={dest.imageAttribution}
                     />
 
+                                        {/* Top Badges Bar: Status (Left) & Category/Theme Badge (Right) */}
+                    <div className="tourism-card-badges">
+                      <span className={`tourism-status-badge ${isDraft ? 'tourism-status-draft' : 'tourism-status-published'}`}>
+                        {isDraft ? `📋 ${t.tourism.draftBadge}` : `✅ ${t.tourism.verifiedBadge}`}
+                      </span>
+                      {dest.badge && <span className="tourism-badge-primary">{dest.badge}</span>}
+                    </div>
+
+                    {/* Bottom-Right: Picture Discovery Badge (Completely separated from top badges) */}
                     <a
                       href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${dest.name} ${dest.district || ''} Assam real pictures tourism`)}`}
                       target="_blank"
@@ -805,15 +814,9 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                       title={`Search real photos of ${dest.name} on Google Images`}
                     >
                       <Camera size={11} />
-                      <span>See All Pictures ↗</span>
+                      <span>See All Pictures</span>
+                      <ExternalLink size={10} />
                     </a>
-
-                    <div className="tourism-card-badges">
-                      <span className={`tourism-status-badge ${isDraft ? 'tourism-status-draft' : 'tourism-status-published'}`}>
-                        {isDraft ? `📝 ${t.tourism.draftBadge}` : `✅ ${t.tourism.verifiedBadge}`}
-                      </span>
-                      {dest.badge && <span className="tourism-badge-primary">{dest.badge}</span>}
-                    </div>
                   </div>
 
                   {/* Card Body */}

@@ -147,7 +147,8 @@ export const DirectoryCard: React.FC<DirectoryCardProps> = ({
           title={`Search real photos of ${item.name} on Google Images`}
         >
           <Camera size={11} />
-          <span>See All Pictures ↗</span>
+          <span>See All Pictures</span>
+          <ExternalLink size={10} />
         </a>
 
         {item.imageUrl ? (

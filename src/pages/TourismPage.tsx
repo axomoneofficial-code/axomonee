@@ -49,6 +49,7 @@ import {
   Clock,
   LayoutGrid,
   Navigation,
+  Camera,
 } from 'lucide-react';
 
 import { useAuth } from '../context/AuthContext';
@@ -795,6 +796,18 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                       attribution={dest.imageAttribution}
                     />
 
+                    <a
+                      href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${dest.name} ${dest.district || ''} Assam real pictures tourism`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="tourism-badge-real-photos"
+                      onClick={(e) => e.stopPropagation()}
+                      title={`Search real photos of ${dest.name} on Google Images`}
+                    >
+                      <Camera size={11} />
+                      <span>Real Pictures ↗</span>
+                    </a>
+
                     <div className="tourism-card-badges">
                       <span className={`tourism-status-badge ${isDraft ? 'tourism-status-draft' : 'tourism-status-published'}`}>
                         {isDraft ? `📝 ${t.tourism.draftBadge}` : `✅ ${t.tourism.verifiedBadge}`}
@@ -877,6 +890,17 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                       >
                         <span>{t.tourism.viewDetails}</span>
                       </Link>
+
+                      <a
+                        href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${dest.name} ${dest.district || ''} Assam real pictures tourism`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="tourism-btn-photos"
+                        title={`Search real photos of ${dest.name} on Google Images`}
+                      >
+                        <Camera size={13} className="text-rose-600" />
+                        <span>Pictures</span>
+                      </a>
 
                       <button
                         type="button"
@@ -1242,6 +1266,17 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
                     <span>Full Page View</span>
                     <ExternalLink size={12} />
                   </Link>
+                  <a
+                    href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${activeModalDest.name} ${activeModalDest.district || ''} Assam real pictures tourism`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="tourism-btn-photos"
+                    title={`Search real photos of ${activeModalDest.name} on Google Images`}
+                  >
+                    <Camera size={13} className="text-rose-600" />
+                    <span>Real Pictures</span>
+                    <ExternalLink size={11} />
+                  </a>
                   {activeModalDest.sourceUrl && (
                     <a
                       href={sanitizeExternalUrl(activeModalDest.sourceUrl)}

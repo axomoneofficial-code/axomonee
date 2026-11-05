@@ -12785,3 +12785,216 @@ html, body {
     align-items: flex-start;
   }
 }
+
+
+/* =========================================================================
+   REAL PICTURES (GOOGLE IMAGES) STYLES
+   ========================================================================= */
+
+/* Directory Card Real Photos Overlay Badge */
+.directory-badge-real-photos {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  background: rgba(17, 24, 39, 0.78);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #FFFFFF !important;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+}
+
+.directory-badge-real-photos:hover {
+  background: var(--gamusa-red, #DC2626);
+  border-color: var(--gamusa-red, #DC2626);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+}
+
+/* Directory Card Footer Photos Button */
+.directory-btn-photos {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.775rem;
+  font-weight: 700;
+  color: #BE123C;
+  background: #FFF1F2;
+  border: 1px solid #FFE4E6;
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.directory-btn-photos:hover {
+  background: #FFE4E6;
+  border-color: #FECDD3;
+  color: #9F1239;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(190, 18, 60, 0.12);
+}
+
+/* Directory Details Modal Action Photos Button */
+.directory-action-btn-photos {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #FECDD3;
+  background: #FFF1F2;
+  color: #BE123C;
+  font-size: 0.825rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.directory-action-btn-photos:hover {
+  background: #FFE4E6;
+  border-color: #FDA4AF;
+  color: #9F1239;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(190, 18, 60, 0.15);
+}
+
+/* District Header Real Pictures Link */
+.district-photos-google-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid #FECDD3;
+  background: #FFF1F2;
+  color: #BE123C;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.district-photos-google-link:hover {
+  background: #FFE4E6;
+  border-color: #FDA4AF;
+  color: #9F1239;
+  transform: translateY(-1px);
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(190, 18, 60, 0.15);
+}
+
+/* Destination Detail Header Real Pictures Button */
+.dest-photos-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #FECDD3;
+  background: #FFF1F2;
+  color: #BE123C;
+  font-size: 0.825rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.dest-photos-btn:hover {
+  background: #FFE4E6;
+  border-color: #FDA4AF;
+  color: #9F1239;
+  transform: translateY(-1px);
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(190, 18, 60, 0.15);
+}
+
+/* Destination Photo Slider Top Bar Google Pictures Button */
+.dest-photo-google-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #FFFFFF !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.2s ease;
+}
+
+.dest-photo-google-btn:hover {
+  background: var(--gamusa-red, #DC2626);
+  border-color: var(--gamusa-red, #DC2626);
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.35);
+}
+
+/* Tourism Page Destination Card Real Photos Badge */
+.tourism-badge-real-photos {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  background: rgba(17, 24, 39, 0.78);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #FFFFFF !important;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease;
+}
+
+.tourism-badge-real-photos:hover {
+  background: var(--gamusa-red, #DC2626);
+  border-color: var(--gamusa-red, #DC2626);
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+}
+
+/* Tourism Page Destination Card Footer Photos Button */
+.tourism-btn-photos {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #BE123C;
+  background: #FFF1F2;
+  border: 1px solid #FFE4E6;
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.tourism-btn-photos:hover {
+  background: #FFE4E6;
+  border-color: #FECDD3;
+  color: #9F1239;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(190, 18, 60, 0.12);
+}

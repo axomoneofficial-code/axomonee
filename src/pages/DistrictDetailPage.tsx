@@ -19,6 +19,7 @@ import {
   ExternalLink,
   Info,
   Home,
+  Camera,
 } from 'lucide-react';
 
 import districtsData from '../data/districts.json';
@@ -52,6 +53,7 @@ const DETAIL_I18N = {
     districtNotFoundDesc: 'The district slug does not match any of the 35 recognized administrative districts of Assam.',
     goBack: 'Go Back',
     officialWebsite: 'Official Website',
+    realPictures: 'Real Pictures (Google)',
   },
   as: {
     home: 'গৃহ',
@@ -79,6 +81,7 @@ const DETAIL_I18N = {
     districtNotFoundDesc: 'অনুগ্ৰহ কৰি অসমৰ ৩৫ খন প্ৰশাসনিক জিলাৰ তালিকাৰ পৰা বাছনি কৰক।',
     goBack: 'উভতি যাওক',
     officialWebsite: 'চৰকাৰী ৱেবছাইট',
+    realPictures: 'প্ৰকৃত ছবি (Google)',
   },
   hi: {
     home: 'होम',
@@ -98,6 +101,7 @@ const DETAIL_I18N = {
     publicServicesTitle: 'सार्वजनिक सेवाएं एवं नागरिक पोर्टल',
     officialPortalTag: 'आधिकारिक पोर्टल',
     adminOfficeTitle: (name: string) => `${name} जिला प्रशासन`,
+    realPictures: 'तस्वीरें (Google)',
     adminOfficeDesc: 'जिला उपायुक्त कार्यालय एवं प्रशासनिक विभागों का आधिकारिक डिजिटल पोर्टल।',
     detailsBtn: 'विवरण',
     viewDetailsAction: 'संपूर्ण विवरण',
@@ -342,15 +346,29 @@ export const DistrictDetailPage: React.FC = () => {
                 </span>
               </div>
 
-              <a
-                href={sanitizeExternalUrl(officialAdminPortal)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="district-portal-link"
-              >
-                <span>{dt.adminPortal}</span>
-                <ExternalLink size={13} />
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${district.name} Assam real pictures tourism heritage`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="district-photos-google-link"
+                  title={`Search real photos of ${district.name} on Google Images`}
+                >
+                  <Camera size={13} />
+                  <span>{(dt as any).realPictures || 'Real Pictures (Google)'}</span>
+                  <ExternalLink size={11} />
+                </a>
+
+                <a
+                  href={sanitizeExternalUrl(officialAdminPortal)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="district-portal-link"
+                >
+                  <span>{dt.adminPortal}</span>
+                  <ExternalLink size={13} />
+                </a>
+              </div>
             </div>
 
             <h1 className="district-title-large">{language === 'as' ? district.name_as : district.name}</h1>

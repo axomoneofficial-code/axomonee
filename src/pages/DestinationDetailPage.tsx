@@ -460,6 +460,10 @@ export const DestinationDetailPage: React.FC = () => {
         `${destination.name} Assam`
       )}`;
 
+  const googleImageSearchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(
+    `${destination.name} ${destination.locality || destination.district || ''} Assam real pictures tourism`
+  )}`;
+
   return (
     <div className="dest-detail-page-wrapper">
       {destination && (
@@ -671,6 +675,19 @@ export const DestinationDetailPage: React.FC = () => {
                   )}
                 </button>
 
+                {/* Real Pictures on Google Images Button */}
+                <a
+                  href={googleImageSearchUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="dest-photos-btn"
+                  title="Search real photos on Google Images"
+                >
+                  <Camera size={14} className="text-rose-600" />
+                  <span>{language === 'as' ? 'প্ৰকৃত ছবি (Google)' : 'Real Pictures'}</span>
+                  <ExternalLink size={12} />
+                </a>
+
                 {/* Direct Google Maps Directions Header Button */}
                 <a
                   href={googleMapsDirectionsUrl}
@@ -833,15 +850,27 @@ export const DestinationDetailPage: React.FC = () => {
                     <span className="dest-slide-swipe-hint"> • Swipe ↔</span>
                   )}
                 </span>
-                <button
-                  type="button"
-                  onClick={() => setLightboxOpen(true)}
-                  className="dest-photo-zoom-btn"
-                  title="Expand to fullscreen viewer"
-                >
-                  <Maximize2 size={13} />
-                  <span>{language === 'as' ? 'ডাঙৰকৈ চাওক' : 'Fullscreen'}</span>
-                </button>
+                <div className="flex items-center gap-2">
+                  <a
+                    href={googleImageSearchUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="dest-photo-google-btn"
+                    title={`Search real photos of ${destination.name} on Google Images`}
+                  >
+                    <Camera size={13} />
+                    <span>Real Pictures ↗</span>
+                  </a>
+                  <button
+                    type="button"
+                    onClick={() => setLightboxOpen(true)}
+                    className="dest-photo-zoom-btn"
+                    title="Expand to fullscreen viewer"
+                  >
+                    <Maximize2 size={13} />
+                    <span>{language === 'as' ? 'ডাঙৰকৈ চাওক' : 'Fullscreen'}</span>
+                  </button>
+                </div>
               </div>
 
               {/* Prev / Next Slide Arrows */}

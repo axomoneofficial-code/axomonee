@@ -20,6 +20,7 @@ import {
   Calendar,
   Building2,
   BookmarkCheck,
+  Camera,
 } from 'lucide-react';
 
 interface DirectoryDetailsProps {
@@ -37,6 +38,10 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
 }) => {
   const { language } = useLanguage();
   const [copied, setCopied] = useState(false);
+
+  const googleImageSearchUrl = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(
+    `${item?.name || ''} ${item?.locality || item?.district || ''} Assam real photos`
+  )}`;
 
   if (!item) return null;
 
@@ -213,6 +218,23 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
               </div>
             )}
 
+            {/* Real Pictures on Google Images */}
+            <div className="directory-meta-card">
+              <Camera size={18} className="text-rose-600 shrink-0" />
+              <div>
+                <div className="text-xs text-gray-500 font-medium">Real Pictures & Campus Photos</div>
+                <a
+                  href={googleImageSearchUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-semibold text-rose-700 hover:text-rose-800 hover:underline flex items-center gap-1 truncate"
+                >
+                  <span>Real Pictures on Google</span>
+                  <ExternalLink size={12} className="shrink-0" />
+                </a>
+              </div>
+            </div>
+
             {/* Google Search & Knowledge Card */}
             <div className="directory-meta-card">
               <svg className="shrink-0" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
@@ -352,6 +374,18 @@ export const DirectoryDetails: React.FC<DirectoryDetailsProps> = ({
                 </svg>
                 <span>Google</span>
                 <ExternalLink size={13} />
+              </a>
+
+              <a
+                href={googleImageSearchUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="directory-action-btn-photos"
+                title={`Search real photos of ${item.name} on Google Images`}
+              >
+                <Camera size={14} className="text-rose-600" />
+                <span>Real Pictures</span>
+                <ExternalLink size={12} />
               </a>
 
               {item.sourceUrl && sanitizeExternalUrl(item.sourceUrl) && (

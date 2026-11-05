@@ -311,13 +311,27 @@ export const DirectoryHome: React.FC<{ forcedAdmin?: boolean }> = ({ forcedAdmin
             <div className="directory-hero-content">
               <div className="directory-hero-badge">
                 <Sparkles size={14} className="text-amber-300" />
-                <span>Assam Official Knowledge & Institution Directory</span>
+                <span>
+                  {language === 'as'
+                    ? 'অসম চৰকাৰী জ্ঞানকোষ আৰু প্ৰতিষ্ঠান পঞ্জীকা'
+                    : language === 'hi'
+                    ? 'असम आधिकारिक ज्ञानकोष एवं संस्थान निर्देशिका'
+                    : 'Assam Official Knowledge & Institution Directory'}
+                </span>
               </div>
               <h1 className="directory-hero-title">
-                {language === 'as' ? 'প্ৰমাণিত অসম পঞ্জীকা' : 'Explore Verified Assam'}
+                {language === 'as'
+                  ? 'প্ৰমাণিত অসম পঞ্জীকা'
+                  : language === 'hi'
+                  ? 'सत्यापित असम निर्देशिका'
+                  : 'Explore Verified Assam'}
               </h1>
-              <div className="directory-hero-subtitle-as">
-                অসমৰ বিশ্ববিদ্যালয়, ঐতিহাসিক স্মৃতিসৌধ, তীৰ্থস্থান আৰু ৰাষ্ট্ৰীয় উদ্যান
+              <div className={`directory-hero-subtitle-as ${language === 'as' ? 'lang-as' : 'lang-en'}`}>
+                {language === 'as'
+                  ? 'অসমৰ বিশ্ববিদ্যালয়, ঐতিহাসিক স্মৃতিসৌধ, তীৰ্থস্থান আৰু ৰাষ্ট্ৰীয় উদ্যান'
+                  : language === 'hi'
+                  ? 'असम के विश्वविद्यालय, ऐतिहासिक स्मारक, तीर्थस्थल एवं राष्ट्रीय उद्यान'
+                  : 'Universities, Historic Monuments, Sacred Places & National Parks of Assam'}
               </div>
               <p className="directory-hero-desc">
                 {language === 'as'

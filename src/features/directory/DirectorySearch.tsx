@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLanguage } from '../../context/LanguageContext';
 import { Search, MapPin, X, ArrowRight, Filter } from 'lucide-react';
 import { DirectoryDistrict } from './types';
 
@@ -27,6 +28,7 @@ export const DirectorySearch: React.FC<DirectorySearchProps> = ({
   onToggleFilters,
   showFiltersToggle = false,
 }) => {
+  const { language } = useLanguage();
   return (
     <div className="directory-search-capsule-wrapper">
       <div className="directory-search-capsule">
@@ -36,7 +38,13 @@ export const DirectorySearch: React.FC<DirectorySearchProps> = ({
           <input
             type="text"
             className="directory-search-native-input"
-            placeholder="Search universities, temples, archaeological sites, wildlife, public services..."
+            placeholder={
+              language === 'as'
+                ? 'বিশ্ববিদ্যালয়, মন্দিৰ, পুৰাতাত্বিক স্থান, অভয়াৰণ্য, চৰকাৰী সেৱা সন্ধান কৰক...'
+                : language === 'hi'
+                ? 'विश्वविद्यालय, मंदिर, ऐतिहासिक स्थल, अभयारण्य, सरकारी सेवाएं खोजें...'
+                : 'Search universities, temples, archaeological sites, wildlife, public services...'
+            }
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
           />
@@ -95,7 +103,7 @@ export const DirectorySearch: React.FC<DirectorySearchProps> = ({
           className="directory-search-action-btn"
           onClick={() => {}}
         >
-          <span>Find</span>
+          <span>{language === 'as' ? 'সন্ধান কৰক' : language === 'hi' ? 'खोजें' : 'Find'}</span>
           <ArrowRight size={15} />
         </button>
       </div>

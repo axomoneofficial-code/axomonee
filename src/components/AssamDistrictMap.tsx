@@ -561,7 +561,7 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
   const activeDistrict = selectedDistrict || hoveredDistrict;
 
   const handleDistrictClick = (district: DistrictMapData) => {
-    setSelectedDistrict(district);
+    navigate(`/districts/${district.slug}`);
   };
 
   const handleGoToDistrict = (slug: string) => {
@@ -615,6 +615,16 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
             <span className="assam-map-count-badge">
               {language === 'as' ? '৩৫ খন জিলা' : language === 'hi' ? '३५ जिले' : '35 Districts'}
             </span>
+            <span className="assam-map-direct-pill">
+              <Compass size={13} />
+              <span>
+                {language === 'as'
+                  ? 'ক্লিক কৰি পোনপটীয়াকৈ প্ৰৱেশ কৰক'
+                  : language === 'hi'
+                  ? 'सीधे जिले पर जाएं'
+                  : 'Click map to enter district'}
+              </span>
+            </span>
           </div>
           <h2 className="assam-map-title">
             {language === 'as'
@@ -627,12 +637,12 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
           </h2>
           <p className="assam-map-subtitle">
             {language === 'as'
-              ? 'ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকাৰ প্ৰতিখন জিলাৰ সীমাৱদ্ধ ৰূপ দৰ্শন কৰক, পৰিদৰ্শনৰ স্থান আৰু প্ৰশাসনিক তথ্য চাওক।'
+              ? 'ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকাৰ প্ৰতিখন জিলাৰ সীমাৱদ্ধ ৰূপ দৰ্শন কৰক। মানচিত্ৰৰ যিকোনো জিলাত ক্লিক বা টেপ কৰি পোনে পোনে সেই জিলাখনৰ পৃষ্ঠাত প্ৰৱেশ কৰক।'
               : language === 'hi'
-              ? 'असम के सभी ३५ प्रशासनिक जिलों का सीमांकित मानचित्र देखें, दर्शनीय स्थल और प्रशासनिक जानकारी प्राप्त करें।'
+              ? 'असम के सभी ३५ जिलों का नक्शा देखें। मानचित्र के किसी भी जिले पर क्लिक या टैप करके सीधे उस जिले के पेज पर जाएं।'
               : language === 'brx'
-              ? 'ब्रह्मपुत्र आरो बराक हायेननि गासै ३५ जिल्लानि सिमा नुथाय, नायदिंनाय जायगा आरो प्रसासनिक खौरां नाय।'
-              : 'Seamless contiguous atlas map of all 35 administrative districts. Hover or tap to inspect verified heritage spots, colleges, headquarters, and portal links.'}
+              ? 'ब्रह्मपुत्र आरो बराक हायेननि गासै ३५ जिल्लानि सिमा नुथाय, जायखिजाया जिल्लायाव थुनानै थां।'
+              : 'Interactive contiguous atlas map of all 35 Assam districts. Click or tap any district on the map to enter its official guide page directly on all devices.'}
           </p>
         </div>
 
@@ -700,7 +710,7 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
           <rect width="1020" height="620" rx="16" fill="#F8FAFC" />
 
           {/* Compass Rose (North Arrow in Top-Right) */}
-          <g transform="translate(970, 45)" opacity="0.8">
+          <g transform="translate(970, 45)" opacity="0.8" pointerEvents="none" style={{ pointerEvents: 'none' }}>
             <circle cx="0" cy="0" r="18" fill="#FFFFFF" stroke="#CBD5E1" strokeWidth="1.5" />
             <polygon points="0,-14 5,0 0,-2 -5,0" fill="#DC2626" />
             <polygon points="0,14 5,0 0,2 -5,0" fill="#64748B" />
@@ -728,20 +738,29 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
                   onMouseEnter={() => setHoveredDistrict(d)}
                   onMouseLeave={() => setHoveredDistrict(null)}
                   onClick={() => handleDistrictClick(d)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      handleDistrictClick(d);
+                    }
+                  }}
                   tabIndex={0}
                   role="button"
-                  aria-label={`${d.name} (${d.name_as})`}
+                  aria-label={`Explore ${d.name} (${d.name_as}) district`}
                   style={{
                     cursor: 'pointer',
-                    transition: 'all 0.22s cubic-bezier(0.16, 1, 0.3, 1)',
+                    transition: 'all 0.18s cubic-bezier(0.16, 1, 0.3, 1)',
+                    touchAction: 'manipulation',
                   }}
-                />
+                >
+                  <title>{`${d.name} (${d.name_as}) — Click to explore district`}</title>
+                </path>
               );
             })}
           </g>
 
           {/* 2. The Mighty Brahmaputra River (Natural flowing valley corridor) */}
-          <g id="brahmaputra-river" pointerEvents="none">
+          <g id="brahmaputra-river" pointerEvents="none" style={{ pointerEvents: 'none' }}>
             {/* North Channel around Majuli Island (Kherkutia Xuti) */}
             <path
               d="M 740,152 Q 710,156 678,172"
@@ -792,7 +811,7 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
           </g>
 
           {/* 3. The Barak River (Flowing through Southern Assam) */}
-          <g id="barak-river" pointerEvents="none">
+          <g id="barak-river" pointerEvents="none" style={{ pointerEvents: 'none' }}>
             <path
               d="M 560,498 Q 515,508 470,518 T 415,525"
               fill="none"
@@ -827,7 +846,7 @@ export const AssamDistrictMap: React.FC<AssamDistrictMapProps> = ({
           </g>
 
           {/* 4. District Centroid Labels & Interactive Pin Markers */}
-          <g id="labels-layer" pointerEvents="none">
+          <g id="labels-layer" pointerEvents="none" style={{ pointerEvents: 'none' }}>
             {mapData.map((d) => {
               const isHighlighted = activeDistrict?.slug === d.slug;
               const isMatchingDivision =

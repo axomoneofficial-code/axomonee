@@ -1,6 +1,9 @@
 # AXOMONE (অসম এক মঞ্চ) Robots.txt
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.git*
+Disallow: /.github/
 Disallow: /admin/
 Disallow: /api/
 

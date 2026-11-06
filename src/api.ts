@@ -540,7 +540,7 @@ export const api = {
     };
   },
 
-  async submitContact(data: { name: string; email: string; message: string }): Promise<{ success: boolean; message: string }> {
+  async submitContact(data: { name?: string; email?: string; message: string; rating?: number; category?: string }): Promise<{ success: boolean; message: string }> {
     try {
       const res = await fetch(`${API_BASE}/contact`, {
         method: 'POST',

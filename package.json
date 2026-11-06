@@ -19,6 +19,7 @@
     "db:seed:remote": "wrangler d1 execute axom-one-db --remote --file=./worker/seed.sql"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
     "lucide-react": "^1.66.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

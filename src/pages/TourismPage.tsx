@@ -57,6 +57,7 @@ import { api } from '../api';
 import initialTourismData from '../data/tourism-destinations.json';
 import { ContextualHelp, GuidanceEmptyState } from '../components/guidance';
 import { getTourismDestinations, saveTourismDestinations } from '../utils/tourismData';
+import { fetchPublishedDestinations } from '../services/destinationService';
 
 const ITEMS_PER_PAGE = 9;
 
@@ -80,22 +81,24 @@ export const TourismPage: React.FC<TourismPageProps> = ({ districts, initialDist
     saveTourismDestinations(destinations);
   }, [destinations]);
 
-  // Pull authoritative public records from server-side database whenever API is available
+  // Pull authoritative public records from Supabase with canonical local fallback
   useEffect(() => {
     let isMounted = true;
-    api.getDestinations({ status: isAdmin ? undefined : 'published' })
-      .then((serverData) => {
-        if (isMounted && serverData && serverData.length > 0) {
-          setDestinations(serverData);
+    fetchPublishedDestinations()
+      .then((liveDestinations) => {
+        if (isMounted && liveDestinations && liveDestinations.length > 0) {
+          setDestinations(liveDestinations);
         }
       })
-      .catch(() => {
-        // Retains canonical local dataset fallback
+      .catch((err) => {
+        if (import.meta.env.DEV) {
+          console.warn('[TourismPage] Using offline canonical destination records:', err);
+        }
       });
     return () => {
       isMounted = false;
     };
-  }, [isAdmin]);
+  }, []);
 
   // View Mode: 'grid' or 'map'
   const [viewMode, setViewMode] = useState<'grid' | 'map'>('grid');

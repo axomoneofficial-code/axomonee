@@ -28,6 +28,7 @@ import initialDistricts from '../../data/districts.json';
 import { ContextualHelp, GuidanceEmptyState } from '../../components/guidance';
 
 import { loadDirectoryRecords, saveDirectoryRecords } from './directoryStorage';
+import { fetchPublishedDirectoryItems } from '../../services/directoryService';
 
 
 export const DirectoryHome: React.FC<{ forcedAdmin?: boolean }> = ({ forcedAdmin }) => {
@@ -93,6 +94,25 @@ export const DirectoryHome: React.FC<{ forcedAdmin?: boolean }> = ({ forcedAdmin
       console.warn('Could not save to localStorage', e);
     }
   }, [items]);
+
+  // Synchronize live published records from Supabase (graceful fallback to seed records)
+  useEffect(() => {
+    let isMounted = true;
+    fetchPublishedDirectoryItems()
+      .then((liveItems) => {
+        if (isMounted && liveItems && liveItems.length > 0) {
+          setItems(liveItems);
+        }
+      })
+      .catch((err) => {
+        if (import.meta.env.DEV) {
+          console.warn('[DirectoryHome] Using offline seed records:', err);
+        }
+      });
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   // View state: 'directory' | 'admin'
   const [activeView, setActiveView] = useState<'directory' | 'admin'>('directory');
